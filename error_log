@@ -1,9 +1,0 @@
-[10-May-2011 11:58:12] PHP Parse error:  syntax error, unexpected '{' in /home2/nysticco/public_html/super3/function.php on line 3
-[10-May-2011 11:58:31] PHP Warning:  Missing argument 6 for show(), called in /home2/nysticco/public_html/super3/function.php on line 21 and defined in /home2/nysticco/public_html/super3/function.php on line 3
-[10-May-2011 12:02:40] PHP Parse error:  syntax error, unexpected T_CLASS in /home2/nysticco/public_html/super3/function.php on line 5
-[10-May-2011 12:02:41] PHP Parse error:  syntax error, unexpected T_CLASS in /home2/nysticco/public_html/super3/function.php on line 5
-[10-May-2011 12:02:42] PHP Parse error:  syntax error, unexpected T_CLASS in /home2/nysticco/public_html/super3/function.php on line 5
-[10-May-2011 12:25:56] PHP Parse error:  syntax error, unexpected T_CLASS in /home2/nysticco/public_html/super3/function.php on line 21
-[10-May-2011 12:26:07] PHP Parse error:  syntax error, unexpected T_CLASS in /home2/nysticco/public_html/super3/function.php on line 21
-[10-May-2011 12:26:26] PHP Parse error:  syntax error, unexpected T_CLASS in /home2/nysticco/public_html/super3/function.php on line 21
-[10-May-2011 12:35:55] PHP Parse error:  syntax error, unexpected T_STRING in /home2/nysticco/public_html/super3/function.php on line 11

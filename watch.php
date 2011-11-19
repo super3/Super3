@@ -1,7 +1,7 @@
 <?php 
-//Set Page and Include Header
+// Set Page and Include Header
 $page = 3; require_once('header.php'); 
-//Get YouTube Video Id
+// Get YouTube Video Id
 $video = $_GET['video'];
 ?>
 <div class="video-area">

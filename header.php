@@ -6,12 +6,11 @@
 	<link rel="stylesheet" href="style.css" type="text/css" media="screen">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
 	<link rel="shortcut icon" href="images/template/block.png"> 
+	/* Start: Google Analytics Code */
 	<script type="text/javascript">
-
 	  var _gaq = _gaq || [];
 	  _gaq.push(['_setAccount', 'UA-13166299-4']);
 	  _gaq.push(['_trackPageview']);
-	
 	  (function() {
 	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
 	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
@@ -19,6 +18,7 @@
 	  })();
 	
 	</script>
+	/* End: Google Analytics Code */
 	<?php require_once("function.php"); ?>
 </head>
 <body>
