@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="style.css" type="text/css" media="screen">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
 	<link rel="shortcut icon" href="images/template/block.png"> 
-	/* Start: Google Analytics Code */
+	<!-- Start: Google Analytics Code -->
 	<script type="text/javascript">
 	  var _gaq = _gaq || [];
 	  _gaq.push(['_setAccount', 'UA-13166299-4']);
@@ -18,7 +18,7 @@
 	  })();
 	
 	</script>
-	/* End: Google Analytics Code */
+	<!-- End: Google Analytics Code -->
 	<?php require_once("function.php"); ?>
 </head>
 <body>
