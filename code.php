@@ -3,6 +3,20 @@
 $page = 4; require_once('header.php'); 
 
 // Print Blocks
+echo show('Zombie Factory', null, '
+		A simple zombie shooting game made with PyGame and Python. Initially just a test, it shows the 
+		what you can do with only a few hundred lines of code in PyGame.',
+		'img/thumbs/zombie-factory.png', 'javascript://', 'More...', true);
+		
+echo show('FastF12', null, '
+		A rendering tool for Blender made in C#. Provides an easy to use GUI for Blender\' command line
+		arguments. Might be ported to C++ or Python in the future.',
+		'img/thumbs/fastf12.png', 'javascript://', 'More...', true);
+
+// Spacing
+echo "<br/><br/>";
+
+// Print Blocks
 echo show('Tic Tac Toe', null, '
 		A simple Tic Tac Toe game written in C++. The program runs in console, and allows
 		two human players to choose grid locations to play. I am working on optimizing the code,
