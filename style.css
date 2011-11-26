@@ -190,6 +190,8 @@ a {
 .left { float: left; }
 .right { float: right; }
 .clear{ clear: both; }
+.splitter { text-align: center; }
+.splitter img { padding-bottom: 13px; }
 
 /* -----------------------------------*/
 /* -------->>> NAVAGATION <<<---------*/

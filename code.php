@@ -6,15 +6,15 @@ $page = 4; require_once('header.php');
 echo show('Zombie Factory', null, '
 		A simple zombie shooting game made with PyGame and Python. Initially just a test, it shows the 
 		what you can do with only a few hundred lines of code in PyGame.',
-		'img/thumbs/zombie-factory.png', 'javascript://', 'More...', true);
+		'img/thumbs/zombie-factory.png', 'https://github.com/super3/Zombie-Factory', 'Goto GitHub', true);
 		
 echo show('FastF12', null, '
 		A rendering tool for Blender made in C#. Provides an easy to use GUI for Blender\' command line
 		arguments. Might be ported to C++ or Python in the future.',
-		'img/thumbs/fastf12.png', 'javascript://', 'More...', true);
+		'img/thumbs/fastf12.png', 'https://github.com/super3/FastF12', 'Goto GitHub', true);
 
 // Spacing
-echo "<br/><br/>";
+echo '<div class="splitter"><img src="img/template/splitter.png" alt="splitter"/><div>';
 
 // Print Blocks
 echo show('Tic Tac Toe', null, '
