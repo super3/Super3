@@ -10,7 +10,7 @@ body {
 	font-family: Arial, Verdana, Sans-serif;
 	/*Note: The the hex color is a fallback to the closest color if
 	  if the image happens to fail*/
-	background: #dddbd4 url('images/template/background.png') repeat-x;
+	background: #dddbd4 url('img/template/background.png') repeat-x;
 }
 a {
 	text-decoration: none;
@@ -65,7 +65,7 @@ a {
 				top: -16px;
 			}
 .content-area {
-	background-image:url('images/template/paper-texture.png');
+	background-image:url('img/template/paper-texture.png');
 	background-repeat:repeat-y;
 }
 	.area-center {
@@ -252,18 +252,18 @@ a {
 #gradient-top {
 	height: 32px;
 	width: 856px;
-	background-image:url('images/template/gradient-top.png');
+	background-image:url('img/template/gradient-top.png');
 }
 #click-me {
 	height: 85px;
 	width: 127px;
-	background-image:url('images/template/click.png');
+	background-image:url('img/template/click.png');
 	margin:0px auto;
 }
 #logo {
 	height: 175px;
 	width: 258px;
-	background-image:url('images/template/logo.png');
+	background-image:url('img/template/logo.png');
 	margin:0px auto;
 }
 
@@ -274,6 +274,6 @@ a {
 #grass {
 	height: 32px;
 	width: 856px;
-	background-image:url('images/template/grass.png');
+	background-image:url('img/template/grass.png');
 	margin-left: -28px;
 }

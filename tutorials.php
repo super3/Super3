@@ -1,6 +1,6 @@
 <?php $page = 3; require_once('header.php'); ?>
 <div class="area-left">
-	<a href="http://www.youtube.com/watch?v=SDaLjTRWA-s&playnext=1&list=PLB9DF8EE7EB06003A"><img src="images/thumbs/rpg2.png" alt="screenshot"></a>
+	<a href="http://www.youtube.com/watch?v=SDaLjTRWA-s&playnext=1&list=PLB9DF8EE7EB06003A"><img src="img/thumbs/rpg2.png" alt="screenshot"></a>
 </div>
 <div class="area-right">
 	<div class="title-contain">
@@ -15,7 +15,7 @@
 <div class="spacer"></div>
 
 <div class="area-left">
-	<a href="http://www.youtube.com/watch?v=3BwptkZCWwU&playnext=1&list=PL13FCE5A9EF9026CE"><img src="images/thumbs/25.png" alt="screenshot"></a>
+	<a href="http://www.youtube.com/watch?v=3BwptkZCWwU&playnext=1&list=PL13FCE5A9EF9026CE"><img src="img/thumbs/25.png" alt="screenshot"></a>
 </div>
 <div class="area-right">
 	<div class="title-contain">
@@ -29,7 +29,7 @@
 <div class="spacer"></div>
 
 <div class="area-left">
-	<img src="images/thumbs/24.png" alt="screenshot">
+	<img src="img/thumbs/24.png" alt="screenshot">
 </div>
 <div class="area-right">
 	<div class="title-contain">

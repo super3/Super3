@@ -1,6 +1,6 @@
 <?php $page = 5; require_once('header.php'); ?>
 <div class="area-left">
-	<a href="downloads/ConTextures.zip"><img src="images/thumbs/textures/pack.png" alt="screenshot"></a>
+	<a href="downloads/ConTextures.zip"><img src="img/thumbs/textures/pack.png" alt="screenshot"></a>
 </div>
 <div class="area-right">
 	<div class="title-contain">
@@ -14,7 +14,7 @@
 <div class="spacer"></div>
 
 <div class="area-left">
-	<a href="downloads/wood.zip"><img src="images/thumbs/textures/wood.png" alt="screenshot"></a>
+	<a href="downloads/wood.zip"><img src="img/thumbs/textures/wood.png" alt="screenshot"></a>
 </div>
 <div class="area-right">
 	<div class="title-contain">
@@ -28,7 +28,7 @@
 <div class="spacer"></div>
 
 <div class="area-left">
-	<a href="downloads/gravel.zip"><img src="images/thumbs/textures/gravel.png" alt="screenshot"></a>
+	<a href="downloads/gravel.zip"><img src="img/thumbs/textures/gravel.png" alt="screenshot"></a>
 </div>
 <div class="area-right">
 	<div class="title-contain">
@@ -42,7 +42,7 @@
 <div class="spacer"></div>
 
 <div class="area-left">
-	<a href="downloads/ground.zip"><img src="images/thumbs/textures/ground.png" alt="screenshot"></a>
+	<a href="downloads/ground.zip"><img src="img/thumbs/textures/ground.png" alt="screenshot"></a>
 </div>
 <div class="area-right">
 	<div class="title-contain">
@@ -56,7 +56,7 @@
 <div class="spacer"></div>
 
 <div class="area-left">
-	<a href="downloads/rocks.png"><img src="images/thumbs/textures/rocks.png" alt="screenshot"></a>
+	<a href="downloads/rocks.png"><img src="img/thumbs/textures/rocks.png" alt="screenshot"></a>
 </div>
 <div class="area-right">
 	<div class="title-contain">
@@ -70,7 +70,7 @@
 <div class="spacer"></div>
 
 <div class="area-left">
-	<a href="downloads/waterfall.png"><img src="images/thumbs/textures/waterfall.png" alt="screenshot"></a>
+	<a href="downloads/waterfall.png"><img src="img/thumbs/textures/waterfall.png" alt="screenshot"></a>
 </div>
 <div class="area-right">
 	<div class="title-contain">
@@ -84,7 +84,7 @@
 <div class="spacer"></div>
 
 <div class="area-left">
-	<a href="downloads/wall.png"><img src="images/thumbs/textures/wall.png" alt="screenshot"></a>
+	<a href="downloads/wall.png"><img src="img/thumbs/textures/wall.png" alt="screenshot"></a>
 </div>
 <div class="area-right">
 	<div class="title-contain">

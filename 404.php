@@ -1,6 +1,6 @@
 <?php $page = 1; require_once('header.php'); ?>
 <div class="area-left">
-	<img src="images/template/404.png" alt="screenshot" style="border:none;">
+	<img src="img/template/404.png" alt="screenshot" style="border:none;">
 </div>
 <div class="area-right">
 	<div class="title-contain">

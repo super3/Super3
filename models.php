@@ -1,6 +1,6 @@
 <?php $page = 5; require_once('header.php'); ?>
 <div class="area-left">
-	<a href="downloads/gunplay.zip"><img src="images/thumbs/models.png" alt="screenshot"></a>
+	<a href="downloads/gunplay.zip"><img src="img/thumbs/models.png" alt="screenshot"></a>
 </div>
 <div class="area-right">
 	<div class="title-contain">

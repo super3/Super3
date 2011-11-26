@@ -1,13 +1,13 @@
 <?php $page = 5; require_once('header.php'); ?>
 <div class="area-left">
-	<a href="/ref"><img src="images/thumbs/references.png" alt="screenshot"></a>
+	<a href="/ref"><img src="img/thumbs/references.png" alt="screenshot"></a>
 </div>
 <div class="area-right">
 	<div class="title-contain">
 		<p class="title">Reference Sets</p>
 	</div>
 	<p class="descrip-large">
-		Download sets of reference images for many different objects. These can be very helpful for 3D modelers and artists. Currently the gallery has a collection of planes, and a shipping container. All are free to use!
+		Download sets of reference img for many different objects. These can be very helpful for 3D modelers and artists. Currently the gallery has a collection of planes, and a shipping container. All are free to use!
 	 </p>
 		<p><a href="/ref">View All</a></p>
 </div>
@@ -15,7 +15,7 @@
 <div class="spacer"></div>
 
 <div class="area-left">
-	<a href="/textures"><img src="images/thumbs/textures.png" alt="screenshot"></a>
+	<a href="/textures"><img src="img/thumbs/textures.png" alt="screenshot"></a>
 </div>
 <div class="area-right">
 	<div class="title-contain">
@@ -30,7 +30,7 @@
 <div class="spacer"></div>
 
 <div class="area-left">
-	<a href="/models"><img src="images/thumbs/models.png" alt="screenshot"></a>
+	<a href="/models"><img src="img/thumbs/models.png" alt="screenshot"></a>
 </div>
 <div class="area-right">
 	<div class="title-contain">

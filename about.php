@@ -1,6 +1,6 @@
 <?php require_once('header.php'); ?>
 <div class="area-left">
-	<img src="images/thumbs/me.png" alt="screenshot">
+	<img src="img/thumbs/me.png" alt="screenshot">
 </div>
 <div class="area-right">
 	<div class="title-contain">
@@ -14,8 +14,8 @@
 	</p>
 </div>
 <div class="media">
-	<a href="http://www.youtube.com/super3boy"><img src="images/template/youtube.png" alt="social"></a>
-	<a href="http://www.facebook.com/group.php?gid=308000076543"><img src="images/template/facebook.png" alt="social"></a>
-	<a href="http://twitter.com/super3"><img src="images/template/twitter.png" alt="social"></a>
+	<a href="http://www.youtube.com/super3boy"><img src="img/template/youtube.png" alt="social"></a>
+	<a href="http://www.facebook.com/group.php?gid=308000076543"><img src="img/template/facebook.png" alt="social"></a>
+	<a href="http://twitter.com/super3"><img src="img/template/twitter.png" alt="social"></a>
 </div>
 <?php require_once('footer.php'); ?>

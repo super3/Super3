@@ -1,6 +1,6 @@
 <?php $page = 5; require_once('header.php'); ?>
 <div class="area-left">
-	<a href="downloads/super3-org-shipping-container-ref.zip"><img src="images/thumbs/ship.png" alt="screenshot"></a>
+	<a href="downloads/super3-org-shipping-container-ref.zip"><img src="img/thumbs/ship.png" alt="screenshot"></a>
 </div>
 <div class="area-right">
 	<div class="title-contain">
@@ -15,7 +15,7 @@
 <div class="spacer"></div>
 
 <div class="area-left">
-	<a href="downloads/pt26.zip"><img src="images/thumbs/planes/pt26.png" alt="screenshot"></a>
+	<a href="downloads/pt26.zip"><img src="img/thumbs/planes/pt26.png" alt="screenshot"></a>
 </div>
 <div class="area-right">
 	<div class="title-contain">
@@ -30,7 +30,7 @@
 <div class="spacer"></div>
 
 <div class="area-left">
-	<a href="downloads/sbd5.zip"><img src="images/thumbs/planes/sbd5.png" alt="screenshot"></a>
+	<a href="downloads/sbd5.zip"><img src="img/thumbs/planes/sbd5.png" alt="screenshot"></a>
 </div>
 <div class="area-right">
 	<div class="title-contain">
@@ -45,7 +45,7 @@
 <div class="spacer"></div>
 
 <div class="area-left">
-	<a href="downloads/p40.zip"><img src="images/thumbs/planes/p40.png" alt="screenshot"></a>
+	<a href="downloads/p40.zip"><img src="img/thumbs/planes/p40.png" alt="screenshot"></a>
 </div>
 <div class="area-right">
 	<div class="title-contain">
@@ -60,7 +60,7 @@
 <div class="spacer"></div>
 
 <div class="area-left">
-	<a href="downloads/piper.zip"><img src="images/thumbs/planes/pa18.png" alt="screenshot"></a>
+	<a href="downloads/piper.zip"><img src="img/thumbs/planes/pa18.png" alt="screenshot"></a>
 </div>
 <div class="area-right">
 	<div class="title-contain">
@@ -76,7 +76,7 @@
 <div class="spacer"></div>
 
 <div class="area-left">
-	<a href="downloads/stinson.zip"><img src="images/thumbs/planes/s108.png" alt="screenshot"></a>
+	<a href="downloads/stinson.zip"><img src="img/thumbs/planes/s108.png" alt="screenshot"></a>
 </div>
 <div class="area-right">
 	<div class="title-contain">

@@ -5,7 +5,7 @@
 	<title>Super3.org - Art. Web. Dev.</title>
 	<link rel="stylesheet" href="style.css" type="text/css" media="screen">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
-	<link rel="shortcut icon" href="images/template/block.png"> 
+	<link rel="shortcut icon" href="img/template/block.png"> 
 	<!-- Start: Google Analytics Code -->
 	<script type="text/javascript">
 	  var _gaq = _gaq || [];
