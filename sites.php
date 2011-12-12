@@ -1,7 +1,7 @@
 <?php $page = 2; require_once('header.php'); ?>
 <!-- Main hero unit for a primary marketing message or call to action -->
 <div class="hero-unit">
-	<h1>Websites</h1>
+	<h1>Sites</h1>
 </div>
 
 <!-- Row of columns -->

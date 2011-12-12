@@ -22,20 +22,20 @@
 	<div class="span-one-third">
 	  <h2>Tutorials</h2>
 	      <ul class="media-grid">
-		  	<li><a href="#"><img class="thumbnail" src="img/template/tutorials.png" alt="tutorials"></a></li>
+		  	<li><a href="tutorials.php"><img class="thumbnail" src="img/template/tutorials.png" alt="tutorials"></a></li>
 		  </ul>
 	      <p>I love to teach and talk about anything tech. All my free video and text tutorials are listed here just for you.
 	      They include my popular <a href="http://blender.org">Blender</a> series, PHP, and many others. </p>
-	      <p><a class="btn" href="#">View &raquo;</a></p>
+	      <p><a class="btn" href="tutorials.php">View &raquo;</a></p>
 	</div>
 	<div class="span-one-third">
 	  <h2>Code</h2>
 		  <ul class="media-grid">
-		  	<li><a href="#"><img class="thumbnail" src="img/template/code.png" alt="code"></a></li>
+		  	<li><a href="code.php"><img class="thumbnail" src="img/template/code.png" alt="code"></a></li>
 		  </ul>
 		  <p>See all the cool code projects I am currently working on. Small snippets and scripts are available for download. 
 		  Everything else (my larger projects and collaborations) are available on <a href="https://github.com/super3">Github</a> .</p>
-		  <p><a class="btn" href="#">View &raquo;</a></p>
+		  <p><a class="btn" href="code.php">View &raquo;</a></p>
 	</div>
 </div>
 <?php require_once('footer.php'); ?>

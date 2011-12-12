@@ -26,3 +26,4 @@ body {
 .right { float: right; }
 .center { text-align: center; }
 .left-shift { padding-left: 13px; }
+.btn { margin-right: 15px; }
