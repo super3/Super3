@@ -5,7 +5,7 @@
 	<p>My name is Shawn Wilkinson, and  I'm an artist, web designer, developer, and teacher. On this website you can check of
 	some of the projects I've worked on, as well as help yourself to all the free tutorials, code snippets, models, references,
 	and textures I have to offer. Enjoy!</p>
-	<p><a class="btn primary large">Learn more &raquo;</a></p>
+	<p><a href="about.php "class="btn primary large">Learn more &raquo;</a></p>
 </div>
 
 <!-- Row of columns -->
@@ -13,7 +13,7 @@
 	<div class="span-one-third">
 	  <h2>Sites</h2>
 	      <ul class="media-grid">
-		  	<li><a href="#"><img class="thumbnail" src="img/template/sites.png" alt="sites"></a></li>
+		  	<li><a href="sites.php"><img class="thumbnail" src="img/template/sites.png" alt="sites"></a></li>
 		  </ul>
 	      <p>I make tech websites for various topics, as well as freelance website development. Listed are some of the websites
 	      I have made. Need a professional website done? You can contact me <a href="#">here</a>. </p>
