@@ -41,7 +41,7 @@
 		  	<li><a href="#"><img class="thumbnail" src="img/template/requests.png" alt="requests"></a></li>
 		  </ul>
 	      <p>
-	      	<a class="btn" href="#">Contact &raquo;</a>
+	      	<a class="btn" href="contact.php">Contact &raquo;</a>
           </p>
 	</div>	
 </div>
