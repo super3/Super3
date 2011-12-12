@@ -8,13 +8,8 @@ body {
 	background-repeat: repeat-x;
 }
 
-.media-grid {
-	margin-bottom: -10px;	
-}
-
-.span-one-third p {
-	height: 75px;
-}
+.media-grid { margin-bottom: -10px;	}
+.span-one-third p {	height: 75px; }
 
 .logo {
 	text-align:center;
@@ -27,10 +22,7 @@ body {
 	top: -5px;
 }
 
-.left{
-	float: left;
-}
-
-.right{
-	float: right;
-}
+.left {	float: left; }
+.right { float: right; }
+.center { text-align: center; }
+.left-shift { padding-left: 13px; }
