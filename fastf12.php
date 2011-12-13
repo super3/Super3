@@ -12,38 +12,48 @@
 		  	<li><a><img class="thumbnail" src="img/template/fastf12.png" alt="zombiefactory"></a></li>
 		  </ul>
 	      <p>
-	      	FastF12 is a rendering tool for <a href="http://blender.org">Blender</a> made in C#.
+	      	FastF12 is a rendering tool for <a href="http://blender.org">Blender</a>, a free open source 3D 
+	      	content creation suite, made in C#. It is currently in development, and about 80% complete.
+	      	FastF12 basically provides a GUI or Graphical User Interface for 
+	      	<a href="http://wiki.blender.org/index.php/Doc:2.5/Manual/Render/Command_Line">Blender's Command
+	        Line</a>, making it much easier to manage large or multiple render jobs. In the future this tool
+	        will be ported to either C++ or Python, so it will be available for all platforms. Feel free to
+	        poke around the the source code, or contribute. 
       	 </p>
 	      <p>
 	      	<a class="btn" href="https://github.com/super3/FastF12/zipball/master">Download</a>
 	      	<a class="btn" href="https://github.com/super3/FastF12">Source Code (Github)</a>
           </p>
-	  <h2>Dev Log #1</h2>
-		 <p>
-		 	<p class="italic">December 13, 2011<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam, est vel volutpat ultrices, velit nisl 
-			dignissim ligula, eget scelerisque velit sapien et augue. Nulla facilisi. Nullam interdum congue commodo. Quisque 
-			ac purus ac nunc luctus viverra. Suspendisse aliquam sapien non sapien pharetra accumsan. In pretium libero felis,
-			dapibus tristique leo. Fusce nec urna quis nisl ultrices adipiscing eu et diam. Lorem ipsum dolor sit amet, consectetur 
-			adipiscing elit. Pellentesque egestas dolor eleifend lorem condimentum ultricies. Nullam mauris velit, auctor in vehicula
-			at, malesuada at nulla. Sed porta eros scelerisque arcu feugiat et dictum urna posuere. <br/><br/>
-
-			Suspendisse potenti. Mauris nec lorem quis augue accumsan facilisis porta non risus. Mauris a justo erat, et 
-			condimentum mauris. Pellentesque semper, augue ut lacinia pharetra, elit lacus egestas ipsum, eget varius tortor 
-			leo nec nisi. In malesuada dignissim felis et scelerisque. Vestibulum felis lorem, consectetur eu tempus condimentum, 
-			lobortis ac neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec scelerisque 
-			consectetur mattis. Nulla vitae orci eget ipsum condimentum rhoncus ut in lorem. Fusce bibendum odio et lectus facilisis 
-			facilisis. Suspendisse venenatis, erat id mattis rhoncus, libero nisi semper ligula, ac venenatis sem felis et diam. 
-			Phasellus eget neque id mauris luctus molestie. Integer auctor massa in neque ultricies non euismod turpis suscipit. 
-			Etiam in ipsum quis nisi tincidunt consectetur blandit tempor arcu. Duis lorem enim, accumsan eu porta eu, aliquam at 
-			nulla. Integer risus enim, fermentum sit amet sodales tempus, dignissim vel nunc. <br/><br/>
-
-			Cras magna risus, congue quis vulputate vel, condimentum sit amet velit. Proin molestie lectus id erat luctus sit 
-			amet fermentum arcu facilisis. Aliquam sodales neque ut magna porttitor vulputate. Mauris quis metus sed nibh egestas 
-			porttitor. Praesent leo mi, dictum eu accumsan sed, accumsan sit amet nunc. Donec tempor auctor quam at commodo. 
-			Sed ac lorem in turpis bibendum volutpat. Quisque consequat luctus tellus, in eleifend augue pulvinar eleifend. Vivamus 
-			eu sem in justo scelerisque adipiscing. Etiam vitae orci nibh.
-	 	 </p>
+      <h2>Screenshots</h2>
+      	 <p>
+      	 	Click to expand...
+      	 	<div class="row">
+			 	<div class="span8"> 	
+				  <ul class="media-grid">
+				  	<li><a href="img/dev-log/screen1.png">
+				  		<img src="img/dev-log/shot1.png" alt="shot"></a></li>
+				  </ul>
+			 	</div>
+			 	<div class="span8"> 	
+				  <ul class="media-grid">
+				  	<li><a href="img/dev-log/screen2.png/">
+				  		<img src="img/dev-log/shot2.png" alt="shot"></a></li>
+				  </ul>
+			 	</div>
+			 	<div class="span8"> 	
+				  <ul class="media-grid">
+				  	<li><a href="img/dev-log/screen3.png">
+				  		<img src="img/dev-log/shot3.png" alt="shot"></a></li>
+				  </ul>
+			 	</div>
+			 	<div class="span8"> 	
+				  <ul class="media-grid">
+				  	<li><a href="img/dev-log/screen4.png">
+				  		<img src="img/dev-log/shot4.png" alt="shot"></a></li>
+				  </ul>
+			 	</div>
+		 	</div>
+      	 </p>
 	</div>
 </div>
 <?php require_once('footer.php'); ?>
