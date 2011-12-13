@@ -9,10 +9,10 @@
 	<div class="span8">
 	  <h2>Blender 2.5</h2>
 	      <ul class="media-grid">
-		  	<li><a href="#"><img class="thumbnail" src="img/template/blender25.png" alt="blender25"></a></li>
+		  	<li><a href="blender25.php"><img class="thumbnail" src="img/template/blender25.png" alt="blender25"></a></li>
 		  </ul>
 	      <p>
-	      	<a class="btn" href="#">View &raquo;</a>
+	      	<a class="btn" href="blender25.php">View &raquo;</a>
 	      	<a class="btn" href="http://www.youtube.com/watch?v=3BwptkZCWwU&list=PL13FCE5A9EF9026CE&feature=plpp_play_all">YouTube</a>
           </p>
 	</div>

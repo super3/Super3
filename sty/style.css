@@ -10,6 +10,8 @@ body {
 footer {
 	border-top-color: #cfd7da;
 }
+tr td { padding-top: 18px;  }
+tr td a{ position: relative; top: -6px; }
 
 .logo {
 	text-align:center;
@@ -28,6 +30,7 @@ footer {
 .right { float: right; }
 .center { text-align: center; }
 .left-shift { padding-left: 17px; }
+.left-shift-small { padding-left: 7px; }
 .btn { margin-right: 15px; }
 .about { height: 350px; margin-top: -20px; }
 .about ul { float: left; width: 430px; }
