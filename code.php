@@ -10,11 +10,10 @@
 	  <h2>Zombie Factory</h2>
 	  	  <p>A simple zombie shooting game made with <a href="http://pygame.org">PyGame</a> and Python.</p>
 	      <ul class="media-grid">
-		  	<li><a href="#"><img class="thumbnail" src="img/template/zombie-factory.png" alt="zombiefactory"></a></li>
+		  	<li><a href="zombie-factory.php"><img class="thumbnail" src="img/template/zombie-factory.png" alt="zombiefactory"></a></li>
 		  </ul>
 	      <p>
-	      	<a class="btn" href="#">More &raquo;</a>
-	      	<a class="btn" href="https://github.com/super3/Zombie-Factory">Visit Github Page &raquo;</a>
+	      	<a class="btn" href="zombie-factory.php">More &raquo;</a>
           </p>
 	  <h2>FastF12</h2>
 	      <p>A rendering tool for <a href="http://blender.org">Blender</a> made in C#.</p>
@@ -23,7 +22,6 @@
 		  </ul>
 	      <p>
 	      	<a class="btn" href="#">More &raquo;</a>
-	      	<a class="btn" href="https://github.com/super3/FastF12">Visit Github Page &raquo;</a>
           </p>
 	</div>
 </div>
