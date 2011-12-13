@@ -15,6 +15,9 @@
 	<link href="sty/bootstrap.css" rel="stylesheet">
 	<link href="sty/style.css" rel="stylesheet">
 	
+	<!-- Le script -->
+	<script type="text/javascript" src="sty/bootstrap-modal.js"></script>
+	
 	<!-- Le fav and touch icons -->
 	<link rel="shortcut icon" href="img/template/fav.png">
 	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
