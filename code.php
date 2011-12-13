@@ -18,10 +18,10 @@
 	  <h2>FastF12</h2>
 	      <p>A rendering tool for <a href="http://blender.org">Blender</a> made in C#.</p>
 	      <ul class="media-grid">
-		  	<li><a href="#"><img class="thumbnail" src="img/template/fastf12.png" alt="fastf12"></a></li>
+		  	<li><a href="fastf12.php"><img class="thumbnail" src="img/template/fastf12.png" alt="fastf12"></a></li>
 		  </ul>
 	      <p>
-	      	<a class="btn" href="#">More &raquo;</a>
+	      	<a class="btn" href="fastf12.php">More &raquo;</a>
           </p>
 	</div>
 </div>

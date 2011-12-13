@@ -21,7 +21,7 @@
 	      	<a class="btn" href="https://github.com/super3/Zombie-Factory/zipball/master">Download</a>
 	      	<a class="btn" href="https://github.com/super3/Zombie-Factory">Source Code (Github)</a>
           </p>
-	  <h2>Art #1</h2>
+	  <h2>Dev Log #1</h2>
 		 <p>
 		 	<p class="italic">December 13, 2011<p>
 		 	Zombie Factory art is all created in the digital art form called
