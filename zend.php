@@ -28,6 +28,7 @@ catch (Exception $ex) {
 // Print out $feed list
 foreach ($feed as $video) {
     echo "ID: ".$video->getVideoWatchPageUrl()."<br/>";
+    
     // Get Youtube Title
     $title = $video->getVideoTitle();
     
@@ -37,7 +38,7 @@ foreach ($feed as $video) {
     $end = strpos($title, '-');
     $title = substr($title, 0, $end);
     
-    // If That Didn't Work Try Something Different
+    // If That Didn't Work Try Something Different 
     if( $title == "" ) {
     	$title = $video->getVideoTitle();
     	$start = strpos($title, '(') + 1;
@@ -45,7 +46,15 @@ foreach ($feed as $video) {
 	    $end = strpos($title, ')');
 	    $title = substr($title, 0, $end);
     }
-    	
+    
+    // Hack For First 3 2.4 Tutorial Vids
+	if( $title == "" ) 
+		$title = "Basics";
+    else if ( $title == "part 1" ) 
+    	$title = "Basics - Part 1";
+    else if ( $title == "part 2" )
+    	$title = "Basics - Part 2";
+    
     echo "Title: ".$title."<br/>";
     echo "Views: ".number_format($video->getVideoViewCount())."<br/>";
     echo "Duration: ".intval($video->getVideoDuration()/60)." minutes<br/><br/>";
