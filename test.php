@@ -16,7 +16,7 @@ $blend25 = 'http://gdata.youtube.com/feeds/api/playlists/13FCE5A9EF9026CE';
 $blend24 = 'http://gdata.youtube.com/feeds/api/playlists/F4FED3F5A7A48AA1';
 $blendRPG = 'http://gdata.youtube.com/feeds/api/playlists/B9DF8EE7EB06003A';
 
-// Attempt to set feed
+// Attempt to set $feed to a Zend_Gdata_YouTube_VideoEntry instance
 try {
     $feed = $yt->getPlaylistVideoFeed($blend25);
 }
@@ -25,11 +25,20 @@ catch (Exception $ex) {
     exit;
 }
 
-// Print out feed list
+// Print out $feed list
 foreach ($feed as $video) {
-    echo "ID: ".$video->getVideoId()."<br/>";
+    echo "ID: ".$video->getVideoWatchPageUrl()."<br/>";
     echo "Title: ".$video->getVideoTitle()."<br/>";
-    echo "Views: ".$video->getVideoViewCount()."<br/>";
-    echo "Duration: ".($video->getVideoDuration()/60)." minutes<br/><br/>";
+    echo "Views: ".number_format($video->getVideoViewCount())."<br/>";
+    echo "Duration: ".intval($video->getVideoDuration()/60)." minutes<br/>";
+    // Output One Thumbnail
+    foreach ($video->getVideoThumbnails() as $thumbnail) { ?>
+	         <img src="<?php echo htmlSpecialChars($thumbnail['url']) ?>"
+	         width="400"
+	         height="<?php echo htmlSpecialChars($thumbnail['height']) ?>"
+	         alt="<?php echo htmlSpecialChars($thumbnail['time']) ?>" /><br/><br/>";"
+<?php
+	break;  
+   } 
 }
 ?>
