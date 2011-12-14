@@ -18,11 +18,10 @@
 	<div class="span8">
 	  <h2>Blender 2.4</h2>
 	      <ul class="media-grid">
-		  	<li><a href="#"><img class="thumbnail" src="img/template/blender24.png" alt="blender24"></a></li>
+		  	<li><a href="blender24.php"><img class="thumbnail" src="img/template/blender24.png" alt="blender24"></a></li>
 		  </ul>
 	      <p>
-	      	<a class="btn" href="#">View &raquo;</a>
-	      	<a class="btn" href="http://www.youtube.com/watch?v=ozlwcQT-U20&list=PLF4FED3F5A7A48AA1&feature=plpp_play_all">YouTube</a>
+	      	<a class="btn" href="blender24.php">View &raquo;</a>
           </p>
 	</div>
 	<div class="span8">
