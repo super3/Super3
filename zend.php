@@ -28,17 +28,26 @@ catch (Exception $ex) {
 // Print out $feed list
 foreach ($feed as $video) {
     echo "ID: ".$video->getVideoWatchPageUrl()."<br/>";
-    echo "Title: ".$video->getVideoTitle()."<br/>";
+    // Get Youtube Title
+    $title = $video->getVideoTitle();
+    
+    // Find Real Title
+    $start = strpos($title, '(') + 1;
+    $title = substr($title, $start);
+    $end = strpos($title, '-');
+    $title = substr($title, 0, $end);
+    
+    // If That Didn't Work Try Something Different
+    if( $title == "" ) {
+    	$title = $video->getVideoTitle();
+    	$start = strpos($title, '(') + 1;
+	    $title = substr($title, $start);
+	    $end = strpos($title, ')');
+	    $title = substr($title, 0, $end);
+    }
+    	
+    echo "Title: ".$title."<br/>";
     echo "Views: ".number_format($video->getVideoViewCount())."<br/>";
-    echo "Duration: ".intval($video->getVideoDuration()/60)." minutes<br/>";
-    // Output One Thumbnail
-    foreach ($video->getVideoThumbnails() as $thumbnail) { ?>
-	         <img src="<?php echo htmlSpecialChars($thumbnail['url']) ?>"
-	         width="400"
-	         height="<?php echo htmlSpecialChars($thumbnail['height']) ?>"
-	         alt="<?php echo htmlSpecialChars($thumbnail['time']) ?>" /><br/><br/>";"
-<?php
-	break;  
-   } 
+    echo "Duration: ".intval($video->getVideoDuration()/60)." minutes<br/><br/>";
 }
 ?>

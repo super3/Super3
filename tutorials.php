@@ -13,7 +13,6 @@
 		  </ul>
 	      <p>
 	      	<a class="btn" href="blender25.php">View &raquo;</a>
-	      	<a class="btn" href="http://www.youtube.com/watch?v=3BwptkZCWwU&list=PL13FCE5A9EF9026CE&feature=plpp_play_all">YouTube</a>
           </p>
 	</div>
 	<div class="span8">
