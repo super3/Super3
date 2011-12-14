@@ -16,18 +16,34 @@ $blend25 = 'http://gdata.youtube.com/feeds/api/playlists/13FCE5A9EF9026CE';
 $blend24 = 'http://gdata.youtube.com/feeds/api/playlists/F4FED3F5A7A48AA1';
 $blendRPG = 'http://gdata.youtube.com/feeds/api/playlists/B9DF8EE7EB06003A';
 
+if($setURL == 1)
+	$feedURL = $blend25;
+else if($setURL == 2)
+	$feedURL = $blend24;
+
 // Attempt to set $feed to a Zend_Gdata_YouTube_VideoEntry instance
 try {
-    $feed = $yt->getPlaylistVideoFeed($blend25);
+    $feed = $yt->getPlaylistVideoFeed($feedURL);
 }
 catch (Exception $ex) {
     echo $ex->getMessage();
     exit;
 }
 
+// Counter Var
+$counter = 1;
+
 // Print out $feed list
 foreach ($feed as $video) {
-    echo "ID: ".$video->getVideoWatchPageUrl()."<br/>";
+	// Get Youtube URL
+    $url = $video->getVideoWatchPageUrl();
+    
+    // Find The ID
+	$start = strpos($url, '=') + 1;
+	$url = substr($url, $start);
+	$end = strpos($url, '&');
+	$url = substr($url, 0, $end);
+	$id = $url;
     
     // Get Youtube Title
     $title = $video->getVideoTitle();
@@ -55,8 +71,17 @@ foreach ($feed as $video) {
     else if ( $title == "part 2" )
     	$title = "Basics - Part 2";
     
-    echo "Title: ".$title."<br/>";
-    echo "Views: ".number_format($video->getVideoViewCount())."<br/>";
-    echo "Duration: ".intval($video->getVideoDuration()/60)." minutes<br/><br/>";
+    // Set More Vars
+    $views = number_format($video->getVideoViewCount());
+    $length = intval($video->getVideoDuration()/60)." minutes";
+    
+    // Print All That Good Stuff
+    echo "<tr>";
+    echo "<td>".$counter++."</td>";
+    echo "<td>".$title."</td>";
+    echo "<td>".$length."</td>";
+    echo "<td>".$views."</td>";
+    echo "<td><a class=\"btn\" href=\"#current\" onclick=\"changeIt('$id')\">Watch Now</a></td>";
+    echo "</tr>";
 }
 ?>
