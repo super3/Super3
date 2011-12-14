@@ -9,19 +9,19 @@
 	<div class="span8">
 	  <h2>Blender 2.5</h2>
 	      <ul class="media-grid">
-		  	<li><a href="blender25.php"><img class="thumbnail" src="img/template/blender25.png" alt="blender25"></a></li>
+		  	<li><a href="blender25"><img class="thumbnail" src="img/template/blender25.png" alt="blender25"></a></li>
 		  </ul>
 	      <p>
-	      	<a class="btn" href="blender25.php">View &raquo;</a>
+	      	<a class="btn" href="blender25">View &raquo;</a>
           </p>
 	</div>
 	<div class="span8">
 	  <h2>Blender 2.4</h2>
 	      <ul class="media-grid">
-		  	<li><a href="blender24.php"><img class="thumbnail" src="img/template/blender24.png" alt="blender24"></a></li>
+		  	<li><a href="blender24"><img class="thumbnail" src="img/template/blender24.png" alt="blender24"></a></li>
 		  </ul>
 	      <p>
-	      	<a class="btn" href="blender24.php">View &raquo;</a>
+	      	<a class="btn" href="blender24">View &raquo;</a>
           </p>
 	</div>
 	<div class="span8">
@@ -36,10 +36,10 @@
 	<div class="span8">
 	  <h2>Requests</h2>
 	      <ul class="media-grid">
-		  	<li><a href="#"><img class="thumbnail" src="img/template/requests.png" alt="requests"></a></li>
+		  	<li><a href="contact"><img class="thumbnail" src="img/template/requests.png" alt="requests"></a></li>
 		  </ul>
 	      <p>
-	      	<a class="btn" href="contact.php">Contact &raquo;</a>
+	      	<a class="btn" href="contact">Contact &raquo;</a>
           </p>
 	</div>	
 </div>

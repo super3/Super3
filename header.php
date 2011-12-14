@@ -30,10 +30,10 @@
 	    <div class="container">
 	      <a class="brand" href="index.php">Super3.org</a>
 	      <ul class="nav">
-	        <li <?php if($page == 1) { echo "class=\"active\";"; }?> ><a href="index.php">Home</a></li>
-	        <li <?php if($page == 2) { echo "class=\"active\";"; }?>><a href="sites.php">Sites</a></li>
-	        <li <?php if($page == 3) { echo "class=\"active\";"; }?>><a href="tutorials.php">Tutorials</a></li>
-	        <li <?php if($page == 4) { echo "class=\"active\";"; }?>><a href="code.php">Code</a></li>
+	        <li <?php if($page == 1) { echo "class=\"active\";"; }?> ><a href="index">Home</a></li>
+	        <li <?php if($page == 2) { echo "class=\"active\";"; }?>><a href="sites">Sites</a></li>
+	        <li <?php if($page == 3) { echo "class=\"active\";"; }?>><a href="tutorials">Tutorials</a></li>
+	        <li <?php if($page == 4) { echo "class=\"active\";"; }?>><a href="code">Code</a></li>
 	      </ul>
 	    </div>
 	  </div>
