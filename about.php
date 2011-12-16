@@ -6,12 +6,10 @@
 	<a href="http://twitter.com/super3"><img src="img/template/twitter.png" alt="twitter" class="right social"></a>
 	<a href="http://www.reddit.com/user/super3"><img src="img/template/reddit.png" alt="reddit" class="right social"></a>
 	<h1>About</h1>
-	
 </div>
 
 <!-- Row of columns -->
 <div class="row left-shift">
-	<div>
 	  <h2>About Me</h2>
 	  	  <ul class="media-grid">
 		  	<li><a><img class="thumbnail" src="img/template/me.png" alt="wildphp"></a></li>
