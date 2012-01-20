@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Super3.org - Art. Web. Dev.</title>
+	<title><?php bloginfo('name'); ?>&ndash; Art. Web. Dev.</title>
 	<!--<meta name="description" content="">-->
 	<!--<meta name="author" content="">-->
 	
@@ -12,14 +12,11 @@
 	<![endif]-->
 	
 	<!-- Le styles -->
-	<link href="sty/bootstrap.css" rel="stylesheet">
-	<link href="sty/style.css" rel="stylesheet">
+	<link href="<?php bloginfo('template_url'); ?>/sty/bootstrap.css" rel="stylesheet">
+	<link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
 	
 	<!-- Le fav and touch icons -->
-	<link rel="shortcut icon" href="img/template/fav.png">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/img/fav.png">
 	
 	<!-- Start: Google Analytics Code -->
 	<script type="text/javascript">
@@ -33,18 +30,24 @@
 	  })();
 	</script>
 	<!-- End: Google Analytics Code -->
+	
+    <!-- Le comments -->
+    <?php if( is_singular() ) wp_enqueue_script(comment-reply); ?>
+    
+    <!-- Extra wordpress header stuff -->
+    <?php wp_head(); ?>
 </head>
 <body>
 	<!-- Navigation bar -->
 	<div class="topbar">
 	  <div class="fill">
 	    <div class="container">
-	      <a class="brand" href="index.php">Super3.org</a>
+	      <a class="brand" href="http://super3.org/">Super3.org</a>
 	      <ul class="nav">
-	        <li <?php if($page == 1) { echo "class=\"active\""; }?> ><a href="index">Home</a></li>
-	        <li <?php if($page == 2) { echo "class=\"active\""; }?>><a href="sites">Sites</a></li>
-	        <li <?php if($page == 3) { echo "class=\"active\""; }?>><a href="tutorials">Tutorials</a></li>
-	        <li <?php if($page == 4) { echo "class=\"active\""; }?>><a href="code">Code</a></li>
+	        <li <?php if(!is_page('')) { echo "class=\"active\""; }?> ><a href="http://super3.org/">Home</a></li>
+	        <li <?php if(is_page('sites')) { echo "class=\"active\""; }?>><a href="http://super3.org/sites">Sites</a></li>
+	        <li <?php if(is_page('tutorials')) { echo "class=\"active\""; }?>><a href="http://super3.org/tutorials">Tutorials</a></li>
+	        <li <?php if(is_page('code')) { echo "class=\"active\""; }?>><a href="http://super3.org/code">Code</a></li>
 	      </ul>
 	    </div>
 	  </div>
@@ -53,5 +56,5 @@
 	<div class="container">
 	  <!-- Logo superhero image -->
 	  <div class="logo">
-	  	<img src="img/template/logo.png" alt="logo" class="center"/>
+	  	<img src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="logo" class="center"/>
 	  </div>
