@@ -45,3 +45,4 @@ tr td a{ position: relative; top: -6px; }
 .about h1 { float: left; padding-left: 10px; }
 .social { padding-left: 25px; margin-top: -35px; }
 .italic { font-style:italic; margin-top: -10px; }
+#wpstats { display: none; }
