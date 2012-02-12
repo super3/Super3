@@ -8,21 +8,21 @@
 <div class="row left-shift">
 	<div>
 	  <h2>About</h2>
-           <?php thumbnail("span12", "#", "img/template/fastf12.png"); ?>
-	      <p>
-	      	FastF12 is a rendering tool for <a href="http://blender.org">Blender</a>, a free open source 3D 
-	      	content creation suite, made in C#. It is currently in development, and about 80% complete.
-	      	FastF12 basically provides a GUI or Graphical User Interface for 
-	      	<a href="http://wiki.blender.org/index.php/Doc:2.5/Manual/Render/Command_Line">Blender's Command
-	        Line</a>, making it much easier to manage large or multiple render jobs. In the future this tool
-	        will be ported to either C++ or Python, so it will be available for all platforms. Feel free to
-	        poke around the the source code, or contribute. 
-      	 </p>
-	      <p>
-	      	<a class="btn" href="https://github.com/super3/FastF12/zipball/master">Download</a>
-	      	<a class="btn" href="https://github.com/super3/FastF12">Source Code (Github)</a>
+          <?php thumbnail("span12", "#", "img/template/fastf12.png"); ?>
+	  <p>
+            FastF12 is a rendering tool for <a href="http://blender.org">Blender</a>, a free open source 3D 
+            content creation suite, made in C#. It is currently in development, and about 80% complete.
+            FastF12 basically provides a GUI or Graphical User Interface for 
+            <a href="http://wiki.blender.org/index.php/Doc:2.5/Manual/Render/Command_Line">Blender's Command
+            Line</a>, making it much easier to manage large or multiple render jobs. In the future this tool
+            will be ported to either C++ or Python, so it will be available for all platforms. Feel free to
+            poke around the the source code, or contribute. 
           </p>
-      <h2>Screenshots</h2>
+	  <p>
+              <a class="btn" href="https://github.com/super3/FastF12/zipball/master">Download</a>
+	      <a class="btn" href="https://github.com/super3/FastF12">Source Code (Github)</a>
+          </p>
+          <h2>Screenshots</h2>
       	 <p>
       	 	Click to expand...
       	 	<div class="row">
