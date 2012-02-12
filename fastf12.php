@@ -8,9 +8,7 @@
 <div class="row left-shift">
 	<div>
 	  <h2>About</h2>
-	      <ul class="media-grid">
-		  	<li><a><img class="thumbnail" src="img/template/fastf12.png" alt="zombiefactory"></a></li>
-		  </ul>
+           <?php thumbnail("span12", "#", "img/template/fastf12.png"); ?>
 	      <p>
 	      	FastF12 is a rendering tool for <a href="http://blender.org">Blender</a>, a free open source 3D 
 	      	content creation suite, made in C#. It is currently in development, and about 80% complete.
@@ -28,30 +26,18 @@
       	 <p>
       	 	Click to expand...
       	 	<div class="row">
-			 	<div class="span8"> 	
-				  <ul class="media-grid">
-				  	<li><a href="img/dev-log/screen1.png">
-				  		<img src="img/dev-log/shot1.png" alt="shot"></a></li>
-				  </ul>
+			 	<div class="span6"> 	
+                                    <?php thumbnail("span6", "img/dev-log/screen1.png", "img/dev-log/screen1.png"); ?>
 			 	</div>
-			 	<div class="span8"> 	
-				  <ul class="media-grid">
-				  	<li><a href="img/dev-log/screen2.png/">
-				  		<img src="img/dev-log/shot2.png" alt="shot"></a></li>
-				  </ul>
+			 	<div class="span6"> 	
+                                    <?php thumbnail("span6", "img/dev-log/screen2.png", "img/dev-log/screen2.png"); ?>
 			 	</div>
-			 	<div class="span8"> 	
-				  <ul class="media-grid">
-				  	<li><a href="img/dev-log/screen3.png">
-				  		<img src="img/dev-log/shot3.png" alt="shot"></a></li>
-				  </ul>
+			 	<!--<div class="span6"> 	
+                                    <?php thumbnail("span6", "img/dev-log/screen3.png", "img/dev-log/screen3.png"); ?>
 			 	</div>
-			 	<div class="span8"> 	
-				  <ul class="media-grid">
-				  	<li><a href="img/dev-log/screen4.png">
-				  		<img src="img/dev-log/shot4.png" alt="shot"></a></li>
-				  </ul>
-			 	</div>
+			 	<div class="span6"> 	
+                                    <?php thumbnail("span6", "img/dev-log/screen4.png", "img/dev-log/screen4.png"); ?>
+			 	</div>-->
 		 	</div>
       	 </p>
 	</div>

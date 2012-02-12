@@ -8,9 +8,7 @@
 <div class="row left-shift">
 	<div>
 	  <h2>About</h2>
-	      <ul class="media-grid">
-		  	<li><a><img class="thumbnail" src="img/template/zombie-factory.png" alt="zombiefactory"></a></li>
-		  </ul>
+          <?php thumbnail("span12", "#", "img/template/zombie-factory.png"); ?>
 	      <p>
 	      	Zombie Factory is a simple zombie shooting game written with <a href="http://pygame.org">PyGame</a>, a 
 	      	cross-platform set of Python modules designed for writing video games. Initially designed as game test,
@@ -34,20 +32,14 @@
 		 	that people are making today come in two styles, retro and isometric. Retro uses more of the small limited
 		 	color scheme of early consoles. The isometric style is a kind of 3D pixel art. You can see examples of each 
 		 	below. 
-		 	<div class="row">
-			 	<div class="span8"> 	
-				  <ul class="media-grid">
-				  	<li><a href="http://www.flickr.com/photos/david994a/5455466752/">
-				  		<img src="img/dev-log/retro-pixelart.png" alt="pixelart"></a></li>
-				  </ul>
-			 	</div>
-			 	<div class="span8"> 	
-				  <ul class="media-grid">
-				  	<li><a href="http://www.flickr.com/photos/sabrinaeras/2065863328/">
-				  		<img src="img/dev-log/iso-pixelart.png" alt="pixelart"></a></li>
-				  </ul>
-			 	</div>
-		 	</div>
+                        <div class="row show-grid">
+                            <div class="span6">
+                             <?php thumbnail("span6", "http://www.flickr.com/photos/david994a/5455466752/", "img/dev-log/retro-pixelart.png"); ?>
+                            </div>
+                              <div class="span6">
+                             <?php thumbnail("span6", "http://www.flickr.com/photos/sabrinaeras/2065863328/", "img/dev-log/iso-pixelart.png"); ?>
+                             </div>	
+                        </div>
 			On the left is the retro pixel art, and on the right is the isometric pixel art. Retro pixel art is pretty
 			cool, but it was not the kind I was looking for. Isometric pixel art is amazing, and the colors are always 
 			pretty vibrant, and awesome. There is only one problem with isometric pixel art. It is near impossible to

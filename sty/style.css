@@ -10,8 +10,8 @@ body {
 footer {
 	border-top-color: #cfd7da;
 }
-tr td { padding-top: 18px;  }
-tr td a{ position: relative; top: -6px; }
+.table tr td { padding-top: 18px;  }
+.table tr td a{ position: relative; top: -6px; }
 
 .logo {
 	text-align:center;
@@ -24,8 +24,8 @@ tr td a{ position: relative; top: -6px; }
 	top: -5px;
 }
 
-.media-grid { margin-bottom: -10px;	}
-.span-one-third p {	height: 75px; }
+.thumbnails { margin-bottom: -10px;	}
+.span4 p {	height: 75px; }
 .left {	float: left; }
 .right { float: right; }
 .center { text-align: center; }
@@ -37,3 +37,4 @@ tr td a{ position: relative; top: -6px; }
 .about h1 { float: left; padding-left: 10px; }
 .social { padding-left: 25px; margin-top: -35px; }
 .italic { font-style:italic; margin-top: -10px; }
+ul { list-style:none; }

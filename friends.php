@@ -6,22 +6,18 @@
 
 <!-- Row of columns -->
 <div class="row show-grid">
-	<div class="span8">
+	<div class="span6">
 	  <h2>AJ Moore</h2>
 	  	  <p>Created the awesome Super3 logo. Check out his comic!</p>
-	      <ul class="media-grid">
-		  	<li><a href="http://gudfit.com/"><img class="thumbnail" src="img/template/aj.png" alt="aj"></a></li>
-		  </ul>
+                   <?php thumbnail("span6", "http://gudfit.com/", "img/template/aj.png"); ?>
 	      <p>
 	      	<a class="btn" href="http://gudfit.com/">Visit &raquo;</a>
           </p>
 	</div>
-	<div class="span8">
+	<div class="span6">
 	  <h2>Dryicons</h2>
 	      <p>Social icons on the about page. Some really great icons you should check out.</p>
-	      <ul class="media-grid">
-		  	<li><a href="http://dryicons.com"><img class="thumbnail" src="img/template/icons.png" alt="icon"></a></li>
-		  </ul>
+               <?php thumbnail("span6", "http://dryicons.com", "img/template/icons.png"); ?>
 	      <p>
 	      	<a class="btn" href="http://dryicons.com">Visit &raquo;</a>
           </p>

@@ -7,9 +7,7 @@
 <!-- Row of columns -->
 <div class="row left-shift">
 	<div>
-	  <ul class="media-grid">
-		  	<li><a><img class="thumbnail" src="http://super3.org/wp-content/uploads/2012/01/blender25-big.png" alt="blender25"></a></li>
-	  </ul>
+            <?php thumbnail("span12", "#", "img/template/blender25-big.png"); ?>
 	  <p>
       	<a class="btn" href="http://www.youtube.com/watch?v=3BwptkZCWwU&#038;list=PL13FCE5A9EF9026CE&#038;feature=plpp_play_all">Play on YouTube</a>
       	<a class="btn" href="http://www.youtube.com/playlist?list=PL13FCE5A9EF9026CE">Goto YouTube Playlist</a>
@@ -28,7 +26,7 @@
       </div>
       </section>
 	  <h2>All Videos</h2>
-	  <table>
+	  <table class="table">
         <thead>
           <tr>
             <th>#</th>

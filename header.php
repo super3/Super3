@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Super3.org - Art. Web. Dev.</title>
-	<!--<meta name="description" content="">-->
-	<!--<meta name="author" content="">-->
+	<meta name="description" content="Free code, art, and tutorials.">
+	<meta name="author" content="Shawn Wilkinson">
 	
 	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
 	<!--[if lt IE 9]>
@@ -17,9 +17,6 @@
 	
 	<!-- Le fav and touch icons -->
 	<link rel="shortcut icon" href="img/template/fav.png">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 	
 	<!-- Start: Google Analytics Code -->
 	<script type="text/javascript">
@@ -33,11 +30,16 @@
 	  })();
 	</script>
 	<!-- End: Google Analytics Code -->
+        
+        <!-- Le PHP includes -->
+        <?php
+            require_once('functions.php');
+        ?>
 </head>
 <body>
 	<!-- Navigation bar -->
-	<div class="topbar">
-	  <div class="fill">
+	<div class="navbar navbar-fixed-top">
+	  <div class="navbar-inner">
 	    <div class="container">
 	      <a class="brand" href="index.php">Super3.org</a>
 	      <ul class="nav">
