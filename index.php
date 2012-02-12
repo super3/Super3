@@ -34,7 +34,7 @@
 		  	<li><a href="code"><img class="thumbnail" src="img/template/code.png" alt="code"></a></li>
 		  </ul>
 		  <p>See all the cool code projects I am currently working on. Small snippets and scripts are available for download. 
-		  Everything else (my larger projects and collaborations) are available on <a href="https://github.com/super3">Github</a> .</p>
+		  Everything else (my larger projects and collaborations) are available on <a href="https://github.com/super3">Github</a>.</p>
 		  <p><a class="btn" href="code">View &raquo;</a></p>
 	</div>
 </div>
