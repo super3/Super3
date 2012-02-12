@@ -9,6 +9,5 @@ New Content
 
 Development
 -------
-* Upgrade to Bootstrap 2.0
 * Smaller Block Thumbs on Code and Sites pages
 * Use Modal to Show Screenshots and Videos (Learn JS?)
