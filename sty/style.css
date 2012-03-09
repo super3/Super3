@@ -37,4 +37,5 @@ footer {
 .about h1 { float: left; padding-left: 10px; }
 .social { padding-left: 25px; margin-top: -35px; }
 .italic { font-style:italic; margin-top: -10px; }
+.caption { padding: 0px 15px 0px 15px; }
 ul { list-style:none; }
