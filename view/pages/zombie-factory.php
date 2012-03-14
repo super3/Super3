@@ -1,4 +1,3 @@
-<?php $page = 4; require_once('header.php'); ?>
 <!-- Main hero unit for a primary marketing message or call to action -->
 <div class="hero-unit">
 	<h1>Zombie Factory</h1>
@@ -8,7 +7,7 @@
 <div class="row left-shift">
 	<div>
 	  <h2>About</h2>
-          <?php thumbnail("span12", "#", "img/template/zombie-factory.png"); ?>
+          <?php thumbnail("span12", "#", "view/images/template/zombie-factory.png"); ?>
 	      <p>
 	      	Zombie Factory is a simple zombie shooting game written with <a href="http://pygame.org">PyGame</a>, a 
 	      	cross-platform set of Python modules designed for writing video games. Initially designed as game test,
@@ -34,10 +33,10 @@
 		 	below. 
                         <div class="row show-grid">
                             <div class="span6">
-                             <?php thumbnail("span6", "http://www.flickr.com/photos/david994a/5455466752/", "img/dev-log/retro-pixelart.png"); ?>
+                             <?php thumbnail("span6", "http://www.flickr.com/photos/david994a/5455466752/", "view/images/dev-log/retro-pixelart.png"); ?>
                             </div>
                               <div class="span6">
-                             <?php thumbnail("span6", "http://www.flickr.com/photos/sabrinaeras/2065863328/", "img/dev-log/iso-pixelart.png"); ?>
+                             <?php thumbnail("span6", "http://www.flickr.com/photos/sabrinaeras/2065863328/", "view/images/dev-log/iso-pixelart.png"); ?>
                              </div>	
                         </div>
 			On the left is the retro pixel art, and on the right is the isometric pixel art. Retro pixel art is pretty
@@ -55,14 +54,13 @@
 			do a tutorial on this at some point. Here are just some of the sprites I have put togethere so far as tests:
 			<div class="row">	
 				  <ul class="media-grid" style="padding-left: 350px;">
-				  	<img src="img/dev-log/zombie.gif" alt="pixelart">
-				  	<img src="img/dev-log/police-fire.gif" alt="pixelart">
-				  	<img src="img/dev-log/police-reload.gif" alt="pixelart">
-				    <img src="img/dev-log/chant.gif" alt="pixelart">
+				  	<img src="view/images/dev-log/zombie.gif" alt="pixelart">
+				  	<img src="view/images/dev-log/police-fire.gif" alt="pixelart">
+				  	<img src="view/images/dev-log/police-reload.gif" alt="pixelart">
+				    <img src="view/images/dev-log/chant.gif" alt="pixelart">
 				  </ul>
 			</div><br/>
 		 	I still have a bunch of work to do on the art, and I will update you as I do!
 	 	 </p>
 	</div>
 </div>
-<?php require_once('footer.php'); ?>

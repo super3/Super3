@@ -15,11 +15,11 @@
 	<![endif]-->
 	
 	<!-- Le styles -->
-	<link href="sty/bootstrap.css" rel="stylesheet">
-	<link href="sty/style.css" rel="stylesheet">
+	<link href="view/css/bootstrap.css" rel="stylesheet">
+	<link href="view/css/style.css" rel="stylesheet">
 	
 	<!-- Le fav and touch icons -->
-	<link rel="shortcut icon" href="img/template/fav.png">
+	<link rel="shortcut icon" href="view/images/template/fav.png">
 	
 	<!-- Start: Google Analytics Code -->
 	<script type="text/javascript">
@@ -36,7 +36,7 @@
         
         <!-- Le PHP includes -->
         <?php
-            require_once('functions.php');
+            require_once('model/functions.php');
         ?>
 </head>
 <body>
@@ -44,7 +44,7 @@
 	<div class="navbar navbar-fixed-top">
 	  <div class="navbar-inner">
 	    <div class="container">
-	      <a class="brand" href="index.php">Super3.org</a>
+	      <a class="brand" href="index">Super3.org</a>
 	      <ul class="nav">
 	        <li <?php if($page == 1) { echo "class=\"active\""; }?> ><a href="index">Home</a></li>
 	        <li <?php if($page == 2) { echo "class=\"active\""; }?>><a href="sites">Sites</a></li>
@@ -58,5 +58,5 @@
 	<div class="container">
 	  <!-- Logo superhero image -->
 	  <div class="logo">
-	  	<img src="img/template/logo.png" alt="logo" class="center"/>
+	  	<img src="view/images/template/logo.png" alt="logo" class="center"/>
 	  </div>

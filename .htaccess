@@ -1,5 +1,6 @@
+# Set 404
 ErrorDocument 404 http://super3.org/404
 
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
+# Clean URLs
+RewriteEngine on
+RewriteRule ^([a-zA-Z0-9-]+)$ index.php?page=$1

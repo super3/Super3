@@ -1,4 +1,3 @@
-<?php $page = 2; require_once('header.php'); ?>
 <!-- Main hero unit for a primary marketing message or call to action -->
 <div class="hero-unit">
 	<h1>Sites</h1>
@@ -20,7 +19,7 @@
 	</div>
 	<div class="span6">
 		<h2>WildPHP</h2>              
-		<?php thumbnail("span6", "http://wildphp.com", "img/template/wildphp-screen.png"); ?>
+		<?php thumbnail("span6", "http://wildphp.com", "view/images/template/wildphp-screen.png"); ?>
 		<div class="caption">
 			<h5>Info</h5>
 			<p>
@@ -34,7 +33,7 @@
 	</div>
 	<div class="span6">
 		<h2>Nystic</h2>
-		<?php thumbnail("span6", "http://forum.nystic.com", "img/template/nystic-screen.png"); ?>
+		<?php thumbnail("span6", "http://forum.nystic.com", "view/images/template/nystic-screen.png"); ?>
 		<div class="caption">
 			<h5>Info</h5>
 			<p>
@@ -47,4 +46,3 @@
 		<a class="btn" href="http://forum.nystic.com">Visit &raquo;</a>
 	</div>
 </div>
-<?php require_once('footer.php'); ?>

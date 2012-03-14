@@ -10,5 +10,4 @@ New Content
 
 Development
 -------
-* Smaller Block Thumbs on Code and Sites pages
 * Use Modal to Show Screenshots and Videos (Learn JS?)

@@ -1,4 +1,3 @@
-<?php $page = 0; require_once('header.php'); ?>
 <!-- Main hero unit for a primary marketing message or call to action -->
 <div class="hero-unit">
 	<!-- Social icons from http://dryicons.com -->
@@ -26,4 +25,3 @@
 		  	<a class="btn" href="img/template/wallpaper2.png">Download 1024x768</a>	
 	  	  </p>
 </div>
-<?php require_once('footer.php'); ?>

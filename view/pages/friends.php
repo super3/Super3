@@ -1,4 +1,3 @@
-<?php $page = 0; require_once('header.php'); ?>
 <!-- Main hero unit for a primary marketing message or call to action -->
 <div class="hero-unit">
 	<h1>Friends</h1>
@@ -19,4 +18,3 @@
 	      <p><a class="btn" href="http://dryicons.com">Visit &raquo;</a></p>
 	</div>
 </div>
-<?php require_once('footer.php'); ?>

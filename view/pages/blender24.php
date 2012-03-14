@@ -1,4 +1,3 @@
-<?php $page = 3; require_once('header.php'); ?>
 <!-- Main hero unit for a primary marketing message or call to action -->
 <div class="hero-unit">
 	<h1>Blender 2.4</h1>
@@ -7,7 +6,7 @@
 <!-- Row of columns -->
 <div class="row left-shift">
 	<div>
-            <?php thumbnail("span12", "#", "img/template/blender24-big.png"); ?>
+            <?php thumbnail("span12", "#", "view/images/template/blender24-big.png"); ?>
 	  <p>
       	<a class="btn" href="http://www.youtube.com/watch?v=ozlwcQT-U20&list=PLF4FED3F5A7A48AA1&feature=plpp_play_all">Play on YouTube</a>
       	<a class="btn" href="http://www.youtube.com/playlist?list=PLF4FED3F5A7A48AA1">Goto YouTube Playlist</a>
@@ -66,4 +65,3 @@
       </table>
 	</div>
 </div>
-<?php require_once('footer.php'); ?>

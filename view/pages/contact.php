@@ -1,4 +1,3 @@
-<?php $page = 0; require_once('header.php'); ?>
 <!-- Main hero unit for a primary marketing message or call to action -->
 <div class="hero-unit">
 	<h1>Contact</h1>
@@ -15,4 +14,3 @@
             <!-- 123ContactForm.com script ends here -->
 	</div>
 </div>
-<?php require_once('footer.php'); ?>

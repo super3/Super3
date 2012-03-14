@@ -1,4 +1,3 @@
-<?php $page = 4; require_once('header.php'); ?>
 <!-- Main hero unit for a primary marketing message or call to action -->
 <div class="hero-unit">
 	<h1>FastF12</h1>
@@ -8,7 +7,7 @@
 <div class="row left-shift">
 	<div>
 	  <h2>About</h2>
-          <?php thumbnail("span12", "#", "img/template/fastf12.png"); ?>
+          <?php thumbnail("span12", "#", "view/images/template/fastf12.png"); ?>
 	  <p>
             FastF12 is a rendering tool for <a href="http://blender.org">Blender</a>, a free open source 3D 
             content creation suite, made in C#. It is currently in development, and about 80% complete.
@@ -27,19 +26,18 @@
       	 	Click to expand...
       	 	<div class="row">
 			 	<div class="span6"> 	
-                                    <?php thumbnail("span6", "img/dev-log/screen1.png", "img/dev-log/screen1.png"); ?>
+                                    <?php thumbnail("span6", "view/images/dev-log/screen1.png", "view/images/dev-log/screen1.png"); ?>
 			 	</div>
 			 	<div class="span6"> 	
-                                    <?php thumbnail("span6", "img/dev-log/screen2.png", "img/dev-log/screen2.png"); ?>
+                                    <?php thumbnail("span6", "view/images/dev-log/screen2.png", "view/images/dev-log/screen2.png"); ?>
 			 	</div>
 			 	<!--<div class="span6"> 	
-                                    <?php thumbnail("span6", "img/dev-log/screen3.png", "img/dev-log/screen3.png"); ?>
+                                    <?php thumbnail("span6", "view/images/dev-log/screen3.png", "view/images/dev-log/screen3.png"); ?>
 			 	</div>
 			 	<div class="span6"> 	
-                                    <?php thumbnail("span6", "img/dev-log/screen4.png", "img/dev-log/screen4.png"); ?>
+                                    <?php thumbnail("span6", "view/images/dev-log/screen4.png", "view/images/dev-log/screen4.png"); ?>
 			 	</div>-->
 		 	</div>
       	 </p>
 	</div>
 </div>
-<?php require_once('footer.php'); ?>
