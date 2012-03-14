@@ -8,10 +8,10 @@
 	
 	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
 	<!--[if lt IE 9]>
-	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-          <style>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <style>
             p { padding-top: 15px; }
-          </style>
+        </style>
 	<![endif]-->
 	
 	<!-- Le styles -->
@@ -46,10 +46,10 @@
 	    <div class="container">
 	      <a class="brand" href="index">Super3.org</a>
 	      <ul class="nav">
-	        <li <?php if($page == 1) { echo "class=\"active\""; }?> ><a href="index">Home</a></li>
-	        <li <?php if($page == 2) { echo "class=\"active\""; }?>><a href="sites">Sites</a></li>
-	        <li <?php if($page == 3) { echo "class=\"active\""; }?>><a href="tutorials">Tutorials</a></li>
-	        <li <?php if($page == 4) { echo "class=\"active\""; }?>><a href="code">Code</a></li>
+	        <li <?php showActive($page, 'index', true); ?>><a href="index">Home</a></li>
+	        <li <?php showActive($page, 'sites', true); ?>><a href="sites">Sites</a></li>
+	        <li <?php showActive($page, 'tutorials', true); ?>><a href="tutorials">Tutorials</a></li>
+	        <li <?php showActive($page, 'code', true); ?>><a href="code">Code</a></li>
 	      </ul>
 	    </div>
 	  </div>

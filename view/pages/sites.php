@@ -45,4 +45,17 @@
 		</div>
 		<a class="btn" href="http://forum.nystic.com">Visit &raquo;</a>
 	</div>
+    	<div class="span6">
+		<h2>Blacksmith Consulting Co.</h2>
+		<?php thumbnail("span6", "http://blacksmithconsultingco.com/", "view/images/template/blacksmith-screen.png"); ?>
+		<div class="caption">
+			<h5>Info</h5>
+			<p>
+				Blacksmith Consulting Company helps businesses, not for profit organizations, government agencies
+                                and educational institutions develop leaders that will move and shape the future in their respective places. 
+			</p>
+			
+		</div>
+		<a class="btn" href="http://blacksmithconsultingco.com/">Visit &raquo;</a>
+	</div>
 </div>

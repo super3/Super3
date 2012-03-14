@@ -8,4 +8,13 @@ function thumbnail($span, $link, $img) {
     echo '</li>';
     echo '</ul>';
 }
+   
+function showActive($pageVar, $currPage, $includeTag) {
+    if ($pageVar == $currPage) {
+        if ($includeTag)
+            echo 'class="active"';
+        else
+            echo ' active';
+        }
+}
 ?>
