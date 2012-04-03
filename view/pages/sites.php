@@ -58,4 +58,15 @@
 		</div>
 		<a class="btn" href="http://blacksmithconsultingco.com/">Visit &raquo;</a>
 	</div>
+    <div class="span6">
+        <h2>Your Website</h2>
+        <?php thumbnail("span6", "#", "view/images/template/requests.png"); ?>
+        <p>
+            Looking for an affordable and talented web developer? I'm your guy. I have experience
+            with HTML5, CSS, PHP, and MySQL. Also, I have experience with .NET and Python if you
+            need another other custom development work. Please see the contact button below for 
+            inquires. 
+        </p>
+        <a class="btn" href="contact">Contact &raquo;</a>
+    </div>
 </div>

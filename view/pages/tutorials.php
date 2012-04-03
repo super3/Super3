@@ -4,7 +4,7 @@
 </div>
 
 <!-- Row of columns -->
-<div class="row show-grid">
+<div class="row">
     <div class="span6">
         <h2>Blender 2.6</h2>
         <?php thumbnail("span6", "blender26", "view/images/template/blender26.png"); ?>
