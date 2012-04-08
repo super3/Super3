@@ -5,11 +5,11 @@
 
 <!-- Row of columns -->
 <div class="row">
-    <div class="span6">
+    <!--<div class="span6">
         <h2>Blender 2.6</h2>
         <?php thumbnail("span6", "blender26", "view/images/template/blender26.png"); ?>
         <p><a class="btn" href="blender26">View &raquo;</a></p>
-    </div>
+    </div>-->
     <div class="span6">
         <h2>Blender 2.5</h2>
         <?php thumbnail("span6", "blender25", "view/images/template/blender25.png"); ?>
