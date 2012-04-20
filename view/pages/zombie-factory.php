@@ -19,8 +19,8 @@
 	      	<a class="btn" href="https://github.com/super3/Zombie-Factory">Source Code (Github)</a>
           </p>
 	  <h2>Dev Log #1</h2>
-		 <p>
-		 	<p class="italic">December 13, 2011<p>
+		 <div>
+		 	<p class="italic">December 13, 2011</p>
 		 	Zombie Factory art is all created in the digital art form called
 		 	<a href="http://http://en.wikipedia.org/wiki/Pixel_art">pixel art</a>. It is reminicent of the type of 
 		 	art used in the early consoles, and the handheld game devices (like the GameBoy) of the 90s. Apart from 
@@ -52,15 +52,13 @@
 			game you can see the main characters from Dude and Zombies is the base for the characters in Zombie 
 			Factory. Follow the base, it is pretty easy to make any type of pixel art characters, and I actually might 
 			do a tutorial on this at some point. Here are just some of the sprites I have put togethere so far as tests:
-			<div class="row">	
-				  <ul class="media-grid" style="padding-left: 350px;">
-				  	<img src="view/images/dev-log/zombie.gif" alt="pixelart">
-				  	<img src="view/images/dev-log/police-fire.gif" alt="pixelart">
-				  	<img src="view/images/dev-log/police-reload.gif" alt="pixelart">
-				    <img src="view/images/dev-log/chant.gif" alt="pixelart">
-				  </ul>
-			</div><br/>
+			<div class="center">	
+			  	<img src="view/images/dev-log/zombie.gif" alt="pixelart">
+			  	<img src="view/images/dev-log/police-fire.gif" alt="pixelart">
+			  	<img src="view/images/dev-log/police-reload.gif" alt="pixelart">
+			    <img src="view/images/dev-log/chant.gif" alt="pixelart">
+			</div>
 		 	I still have a bunch of work to do on the art, and I will update you as I do!
-	 	 </p>
+	 	 </div>
 	</div>
 </div>

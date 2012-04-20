@@ -1,5 +1,5 @@
 <!-- Main hero unit for a primary marketing message or call to action -->
-<div class="hero-unit">
+<div class="hero-unit center">
     <h1>404 - File Not Found!</h1>
 </div>
 
