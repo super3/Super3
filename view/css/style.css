@@ -22,6 +22,7 @@ footer {
 .hero-unit {
 	position: relative;
 	top: -5px;
+	margin-bottom: 0px;
 }
 
 .thumbnails { margin-bottom: -10px;	}
