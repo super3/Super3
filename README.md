@@ -1,8 +1,8 @@
 Super3.org
 =============
-Base files for my personal site and portfolio.
+Base files HTML for my personal and portfolio site.
 
-New Content
+New Content Ideas
 -------
 * Bootstrap Tutorials and Templates (0% Done)
 * Choosing the Right Domain Name (20% Done)
@@ -10,5 +10,5 @@ New Content
 
 Development
 -------
-* Add Blender 2.6 Page
+* Add Blender 2.6 Tutorial Page
 * Use Modal to Show Screenshots and Videos (Learn JS?)
