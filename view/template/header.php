@@ -5,7 +5,7 @@
 	<title>Super3.org - Art. Web. Dev.</title>
 	<meta name="description" content="Free code, art, and tutorials.">
 	<meta name="author" content="Shawn Wilkinson">
-        <meta name="google-site-verification" content="e6dbTwQqdVD2bfhQHxogQWcON07KKZdlIJDNyXL4BpQ" />
+    <meta name="google-site-verification" content="e6dbTwQqdVD2bfhQHxogQWcON07KKZdlIJDNyXL4BpQ" />
 	
 	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
 	<!--[if lt IE 9]>

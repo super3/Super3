@@ -2,7 +2,8 @@
 <div class="hero-unit">
 	<div class="row">
 		<div class="span3">
-			<?php thumbnail("span3", "http://windowsphone.com/s?appid=5633a058-44da-4ddb-9132-42ce9ab52226", "view/images/template/sketchandshake.png"); ?>
+			<?php thumbnail("span3", "http://windowsphone.com/s?appid=5633a058-44da-4ddb-9132-42ce9ab52226",
+			 "view/images/template/sketchandshake.png"); ?>
 		</div>
 		<div class="span7">
 			<h1>Sketch and Shake</h1>
@@ -10,8 +11,14 @@
 				Check out my new and first Window 7 Phone App. Use your finger to draw on the screen, and
 				then when you want to erase just give the phone a shake.
 			</p>
-			<p><a href="http://windowsphone.com/s?appid=5633a058-44da-4ddb-9132-42ce9ab52226" class="btn btn-large btn-primary">
-				<i class="icon-download icon-white" style="margin-top: 2px;"></i> Download for Windows 7 Phone (Free!)</a></p>
+			<p style="margin: 0px;">
+				<a href="http://windowsphone.com/s?appid=5633a058-44da-4ddb-9132-42ce9ab52226" class="btn btn-large btn-primary">
+					<i class="icon-download icon-white" style="margin-top: 2px;"></i> Download for Windows 7 Phone (Free!)
+				</a>
+				<a href="https://github.com/super3/Sketch-and-Shake" class="btn btn-large">
+					View Code on Github
+				</a>
+			</p>
 		</div>
 	</div>
 </div>
@@ -26,7 +33,11 @@
 			and textures I have to offer.</p>
 		</div>
 		<div class="span2">
-			<p style="margin-top: 35px;"><a class="btn btn-large" href="sites">About Me &raquo;</a></p>
+			<p style="margin-top: 35px;">
+				<a class="btn btn-large" href="sites">
+					<i class="icon-user" style="margin-top: 2px;"></i> About Me
+				</a>
+			</p>
 		</div>
 	</div>
 	<div>
