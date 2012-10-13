@@ -20,7 +20,7 @@
 		
 	</head>
   
-	<body>
+	<body class="mirror-mode">
 	
 	<!-- begin .skin-changer -->
 		<div class="skin-changer hidden-phone hidden-tablet">
@@ -49,7 +49,7 @@
 			<h4 class="intro-slogan css3-gradient">Hello world!<br/>Let me introduce myself.</h4>
 		</div>
 		<!-- begin .vcard -->
-			<div class="span4 vcard">
+			<div class="span4 vcard pull-right">
 				<div class="vcard-wrap">
 				<!-- begin .vcard-photo -->
 				<div class="vcard-photo">				
@@ -59,11 +59,12 @@
 				
 				<!-- begin .vcard-bio -->
 				<div class="vcard-bio">
-					<h2 class="vcard-name">John Sunrise</h2>
+					<h2 class="vcard-name">Shawn Wilkinson</h2>
 					
 					<hr/>
 					
-					<p>Amet purus nunc diam enim rhoncus. Dolor. Ut, elit, tempor auctor, integer porttitor cum scelerisque? Sociis pulvinar nascetur! Dolor platea! Phasellus adipiscing eu augue urna nunc odio sed nec odio?</p>
+					<p>Hello! Any thanks for taking a look at my website. I am currently a junior at Morehouse College, majoring in Computer Science. In my free time I am an artist, web designer, developer, and teacher.
+					You can find all my cool projects here, or contact me if you want me to work for you.</p>
 					
 					<hr/>
 					
@@ -71,7 +72,7 @@
 						<div class="skill-item row-fluid">
 							<div class="span12 skill-bar">
 								<div class="progress">
-									<div class="bar bar-danger" style="width: 100%;"><i class="icon-tint"></i>Illustrator</div>
+									<div class="bar bar-danger" style="width: 100%;"><i class="icon-tint"></i>Python</div>
 								</div>
 							</div>
 						</div>
@@ -81,27 +82,27 @@
 						<div class="skill-item row-fluid">
 							<div class="span12 skill-bar">
 								<div class="progress">
-									<div class="bar  bar-warning" style="width: 90%;"><i class="icon-camera-retro"></i>PhotoShop</div>
+									<div class="bar  bar-warning" style="width: 100%;"><i class="icon-file"></i>HTML, CSS</div>
 								</div>
 							</div>
 						</div>
-					<!-- end .skill-item -->					
+					<!-- end .skill-item -->						
 					
 					<!-- begin .skill-item -->
 						<div class="skill-item row-fluid">
 							<div class="span12 skill-bar">
 								<div class="progress">
-									<div class="bar  bar-success" style="width: 40%;"><i class="icon-cogs"></i>Dreamweaver</div>
+									<div class="bar bar-success" style="width: 100%;"><i class="icon-book"></i>App Development</div>
 								</div>
 							</div>
 						</div>
-					<!-- end .skill-item -->					
-					
+					<!-- end .skill-item -->
+
 					<!-- begin .skill-item -->
 						<div class="skill-item row-fluid">
 							<div class="span12 skill-bar">
 								<div class="progress">
-									<div class="bar " style="width: 60%;"><i class="icon-book"></i>InDesign</div>
+									<div class="bar " style="width: 100%;"><i class="icon-book"></i>Technical Consulting</div>
 								</div>
 							</div>
 						</div>
@@ -110,10 +111,8 @@
 					<hr/>
 					
 					<!-- begin info -->
-					<span class="vcard-info"><i class="icon-home"></i>Washington DC, USA</span><br/>
-					<span class="vcard-info"><i class="icon-signal"></i>(555) 48 45698</span><br/>
-					<span class="vcard-info"><i class="icon-globe"></i><a href="#">http://www.example.com/</a></span><br/>
-					<span class="vcard-info"><i class="icon-envelope"></i><a href="mailto:example@example.com">john@sunrise.com</a></span>
+					<span class="vcard-info"><i class="icon-home"></i>Atlanta, GA, USA</span><br/>
+					<span class="vcard-info"><i class="icon-envelope"></i><a href="mailto:me@super3.org">me@super3.org</a></span>
 					<!-- end info -->
 					
 				</div>
@@ -123,65 +122,74 @@
 		<!-- end .vcard -->
 		
 		<!-- begin .main-wrap -->
-			<div class="span8 main-wrap">		
+			<div class="span8 main-wrap pull-left">		
 					
 				<!-- begin .section-work -->
 				<div class="section section-work section-first row">
-					<h3 class="css3-gradient-2"><i class="icon-briefcase"></i>Work experience</h3>
+					<h3 class="css3-gradient-2"><i class="icon-briefcase"></i>Projects</h3>
 					
 						<div class="section-work-list row-fluid">
 							<div class="span6 work-item">
-							<h4><i class="icon-wrench"></i>Engineer <small>2001 &mdash; 2005</small></h4>
-							Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</div>
+							<h4>
+								<i class="icon-camera-retro"></i>PyTrack 
+								<small>
+									<a href="https://github.com/super3/PyTrack">(Source)</a>
+								</small>
+							</h4>
+							A computer vision object and motion tracking tool. Currently allows you to track and report the location of a single object in a video. Developed at the University of Washington as part of a REU program at the <a href="http://www.csne-erc.org/">Center for Sensorimotor Neural 
+							Engineering</a>. </div>
 						
 							<div class="span6 work-item">
-							<h4><i class="icon-cut"></i>Artist <small>2001 &mdash; 2005</small></h4>
-							Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</div>
+							<h4>
+								<i class="icon-fire"></i>Zombie Factory 
+								<small>
+									<a href="https://github.com/super3/Zombie-Factory">(Source)</a>
+								</small>
+							</h4>
+							A zombie shooting game made with Python. Part of my experiments with PyGame, a cross-platform set of Python modules designed for writing video games. </div>
 						</div>		
 						
 						<div class="section-work-list row-fluid">
 							<div class="span6 work-item">
-							<h4><i class="icon-github"></i>IT consultant <small>2001 &mdash; 2005</small></h4>
-							Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</div>
+							<h4>
+								<i class="icon-phone"></i>Sketch and Shake 
+								<small>
+									<a href="http://www.windowsphone.com/en-US/apps/5633a058-44da-4ddb-9132-42ce9ab52226">
+										(Download App)</a>,
+									<a href="https://github.com/super3/Sketch-and-Shake">(Source)</a>
+								</small>
+							</h4>
+							An etch-a-sketch app, designed during Experience Microsoft 2012, for Windows Phone 7. You 
+							can draw with your finger and shake your phone to erase. Written in C#. This app has been recommended and featured by <a href="http://www.appdealswp.com/">AppDeals</a>. Best of all
+							it is free to download.</div>
 						
 							<div class="span6 work-item">
-							<h4><i class="icon-question-sign"></i>Random position <small>2001 &mdash; 2005</small></h4>
-							Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</div>
+							<h4>
+								<i class="icon-comments"></i>PHP IRC Bot 
+								<small><a href="http://wildphp.com">(Website)</a></small>
+							</h4>
+							A simple, object oriented, and PHP based IRC Bot for games, channel logging and 
+							management. No special software needed, simply run it on any webserver or LAMP stack.
+							You can easily extend it with your own modules in PHP, rather than some custom scripting
+							language.</div>
 						</div>						
 				</div>
-				<!-- end .section-work -->	
-				
-				<!-- begin .section-education -->
-				<div class="section section-education row">
-					<h3 class="css3-gradient-2"><i class="icon-book"></i>Education</h3>
-					
-						<div class="section-education-list row-fluid">
-							<div class="span6 education-item">
-							<h4><i class="icon-circle-arrow-right"></i>School or Arts <small>2001 &mdash; 2005</small></h4>
-							Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</div>
-						
-							<div class="span6 education-item">
-							<h4><i class="icon-circle-arrow-right"></i>School of Engineering <small>2001 &mdash; 2005</small></h4>
-							Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</div>
-						</div>		
-						
-						<div class="section-education-list row-fluid">
-							<div class="span6 education-item">
-							<h4><i class="icon-circle-arrow-right"></i>School or Arts <small>2001 &mdash; 2005</small></h4>
-							Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</div>
-						
-							<div class="span6 education-item">
-							<h4><i class="icon-circle-arrow-right"></i>School of Engineering <small>2001 &mdash; 2005</small></h4>
-							Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</div>
-						</div>						
-	
-				</div>
-				<!-- end .section-education -->		
-				
+				<!-- end .section-work -->		
+
 				<!-- begin .section-portfolio -->
 				<div class="section section-portfolio row">
-					<h3 class="css3-gradient-2"><i class="icon-tint"></i>Portfolio</h3>
+					<h3 class="css3-gradient-2"><i class="icon-tint"></i>Tutorials</h3>
 					
+					<!-- begin .portfolio-row -->
+						<div class="section-portfolio-row-wrap row-fluid">
+							<div class="portfolio-item-thumbnail span12">
+								<div data-title="Forth portfolio item" class="portfolio-item-thumbnail-wrap">
+									<a href="assets/asset.png" rel="prettyPhoto"><img alt="Forth portfolio item" src="assets/asset.png"/></a>
+								</div>
+							</div>
+						</div>
+					<!-- end .portfolio-row -->		
+
 					<!-- begin .portfolio-row -->
 						<div class="section-portfolio-row-wrap row-fluid">
 							<div class="portfolio-item-thumbnail span6">
@@ -197,24 +205,48 @@
 						</div>
 					<!-- end .portfolio-row -->	
 					
+					
+				</div>
+				<!-- end .section-portfolio -->
+				
+				<!-- begin .section-portfolio -->
+				<div class="section section-portfolio row">
+					<h3 class="css3-gradient-2"><i class="icon-tint"></i>Websites</h3>
+					
 					<!-- begin .portfolio-row -->
 						<div class="section-portfolio-row-wrap row-fluid">
 							<div class="portfolio-item-thumbnail span6">
-								<div data-title="Vimeo Embed item" class="portfolio-item-thumbnail-wrap">
-									<div class="embed-container">
-									<iframe src="http://player.vimeo.com/video/1084537" width="500" height="201" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-									</div>
+								<div data-title="WildPHP - The PHP IRC Bot" class="portfolio-item-thumbnail-wrap">
+									<a href="http://wildphp.com"><img src="assets/wildphp.png"/></a>
 								</div>
 							</div>
 							<div class="portfolio-item-thumbnail span6">
-								<div data-title="Forth portfolio item" class="portfolio-item-thumbnail-wrap">
-									<a href="assets/asset.png" rel="prettyPhoto"><img alt="Forth portfolio item" src="assets/asset.png"/></a>
+								<div data-title="Nystic - A Blender Community" class="portfolio-item-thumbnail-wrap">
+									<a href="http://forum.nystic.com"><img src="assets/nystic.png"/></a>
 								</div>
 							</div>
 						</div>
-					<!-- end .portfolio-row -->		
+					<!-- end .portfolio-row -->	
+				
 				</div>
 				<!-- end .section-portfolio -->
+
+				<!-- begin .section-education -->
+				<div class="section section-education row">
+					<h3 class="css3-gradient-2"><i class="icon-book"></i>Education</h3>
+					
+						<div class="section-education-list row-fluid">
+							<div class="span6 education-item">
+							<h4><i class="icon-circle-arrow-right"></i>Morehouse College <small>2010 &mdash; 2014</small></h4>
+							Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</div>
+						
+							<div class="span6 education-item">
+							<h4><i class="icon-circle-arrow-right"></i>Hopps Scholar <small>2011 &mdash; 2012</small></h4>
+							Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</div>
+						</div>					
+	
+				</div>
+				<!-- end .section-education -->	
 				
 				<!-- begin .section-blog -->
 				<div class="section section-blog section-last row">
@@ -246,21 +278,6 @@
 								<h4><a href="#" title="title goes here">This is a blog post.</a></h4>
 								<div class="blog-item-meta"><span><i class="icon-calendar"></i><small>2012-09-20</small></span><span><i class="icon-comments"></i><small><a href="#">0 comments</a></small></span></div>	
 								<p>Odio nunc dictumst scelerisque! Cum lacus a adipiscing turpis? Montes. Rhoncus pulvinar, penatibus lectus augue proin arcu cras. Velit. Elementum urna et tincidunt odio turpis placerat magna. Turpis eros mauris! Augue nisi placerat? Eros tortor porttitor ac rhoncus enim. Placerat! Integer sed! Lundium lacus duis sociis parturient ultricies, lacus est ut tortor, placerat egestas? A arcu tincidunt a placerat nisi! Ut dapibus dictumst amet nec natoque cras, placerat.</p><p>Elementum elementum, phasellus dolor, vut et velit ultrices sagittis aliquam dolor in placerat et aliquam! Lectus, duis dictumst ultricies sed, dapibus dictumst, dignissim et, turpis porta lectus vel, scelerisque egestas, dictumst adipiscing enim lundium. Elementum nec augue?</p>
-							</div>
-						</div>
-					<!-- end .blog-item -->		
-					
-					<!-- begin .blog-item -->
-						<div class="section-blog-item last-blog-item row-fluid">
-							<div class="blog-item-thumbnail span4">
-								<div class="blog-item-thumbnail-wrap">
-									<a href="#" title="title goes here"><img src="assets/asset.png" alt="alt goes here"/></a>
-								</div>
-							</div>
-							<div class="blog-item-excerpt span8">
-								<h4><a href="#" title="title goes here">First blog post, untitled.</a></h4>
-								<div class="blog-item-meta"><span><i class="icon-calendar"></i><small>2012-09-20</small></span><span><i class="icon-comments"></i><small><a href="#">0 comments</a></small></span></div>	
-								<p>Montes platea elementum? Egestas magna, mauris scelerisque nisi elit! Vel risus amet ultricies eros. In diam, vel odio et? Eros adipiscing non, proin? Ridiculus aliquam cras tristique ultricies aenean? Purus mus! Nec integer.</p><p>Adipiscing, ridiculus, magnis augue adipiscing lundium? Ac? Sed adipiscing hac tincidunt est in quis nisi ac eros pulvinar nec nascetur rhoncus arcu turpis. Vut platea quis, eu porttitor phasellus lorem pulvinar nec porta ut, a sit cras dis. Egestas cras odio, eu? Parturient auctor elit pulvinar egestas tincidunt elit placerat montes sociis platea dictumst! Dis lundium purus est sed integer est adipiscing. Tincidunt sagittis mus sagittis augue cum nisi augue. Mattis, nisi? Et pellentesque odio rhoncus, tincidunt porta.</p>
 							</div>
 						</div>
 					<!-- end .blog-item -->		
