@@ -213,7 +213,7 @@
 								</div>
 							</div>
 							<div class="blog-item-excerpt span8">
-								<h4><a href="#" title="Launch of Super3.org - Version 4">
+								<h4><a href="#" title="Launch of Super3.org - Version 3">
 									Launch of Super3.org - Version 4</a></h4>
 								<div class="blog-item-meta">
 									<span><i class="icon-calendar"></i><small>2012-10-13</small></span>
@@ -222,7 +222,7 @@
 								<p>
 									Since its launch in 2010, Super3.org has been a place were I can post some of my cool
 									projects, as well as do some experiments with web design and development. As a result
-									I have launched the 4th version of Super3.org with updated projects, info, and a whole
+									I have launched the 3rd version of Super3.org with updated projects, info, and a whole
 									new awesome template. 
 									<br/><br/>
 									In the next few weeks I will be slowly adding more content. These will include 

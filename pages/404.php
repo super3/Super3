@@ -8,7 +8,7 @@
 						<div class="span2"></div>
 						<div class="span6">
 							<img src="assets/404.jpg" alt="404"/>
-							<a class="btn btn-large btn-block btn-primary" type="button" href="/">Back to Home</a>
+							<a class="btn btn-large btn-block btn-primary" href="/">Back to Home</a>
 						</div>
 						<div class="span4"></div>
 					</div>
