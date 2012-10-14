@@ -1,56 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-	<head>
-		<title>Super3.org - Art. Web. Dev.</title>
-		<meta charset="utf-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
-		<link href="fontawesome/css/font-awesome.css" rel="stylesheet">
-		<link href="fontawesome/css/font-awesome-ie7.css" rel="stylesheet">
-		<link href="js/prettyPhoto/prettyPhoto.css" rel="stylesheet">
-		<link href="style.css" rel="stylesheet">
-		<link href="skins/skin-default.css" rel="stylesheet">
-
-		<link rel="shortcut icon" href="assets/fav.png">
-		
-		<!-- Integrated Adobe Edge Fonts starts here -->
-		<script src="http://use.edgefonts.net/squada-one:n4.js"></script>
-		<script src="http://use.edgefonts.net/bebas-neue:n4.js"></script>
-		<!-- Integrated Adobe Edge Fonts ends here -->
-		
-	</head>
-  
-	<body class="mirror-mode">
-	
-	<!-- begin .skin-changer 
-		<div class="skin-changer hidden-phone hidden-tablet">
-			<ul id="skins">
-				<li class="active-skin skin"><a href="#" title="skin-default">default</a></li>
-				<li class="skin"><a href="#" title="skin-1">skin 1</a></li>
-				<li class="skin"><a href="#" title="skin-2">skin 2</a></li>
-				<li class="skin"><a href="#" title="skin-3">skin 3</a></li>
-				<li class="skin"><a href="#" title="skin-4">skin 4</a></li>
-				<li class="skin"><a href="#" title="skin-5">skin 5</a></li>
-				<li class="skin"><a href="#" title="skin-6">skin 6</a></li>
-				<li class="skin"><a href="#" title="skin-7">skin 7</a></li>
-				<li class="skin"><a href="#" title="skin-8">skin 8</a></li>
-				<li class="skin"><a href="#" title="skin-9">skin 9</a></li>
-				<li class="skin"><a href="#" title="skin-10">skin 10</a></li>
-				<li class="skin"><a href="#" title="skin-11">skin 11</a></li>
-				<li class="mirror-mode-switch"><a href="#" title="mirror-mode">mirror mode</a></li>
-			</ul>
-			<div class="open-skin-changer"><p>choose your style!</p></div>
-		</div>
-	 end .skin-changer -->	
-		
-	<div class="container">
-		<div class="row page-wrap">
-		<div class="span12">
-			<h4 class="intro-slogan css3-gradient">Super3.org<br/>Art. Web. Dev.</h4>
-		</div>
 		<!-- begin .vcard -->
 			<div class="span4 vcard pull-right">
 				<div class="vcard-wrap">
@@ -74,7 +21,7 @@
 						<div class="skill-item row-fluid">
 							<div class="span12 skill-bar">
 								<div class="progress">
-									<div class="bar bar-danger" style="width: 100%;"><i class="icon-tint"></i>Python</div>
+									<div class="bar" style="width: 100%;"><i class="icon-tint"></i>Python</div>
 								</div>
 							</div>
 						</div>
@@ -84,7 +31,7 @@
 						<div class="skill-item row-fluid">
 							<div class="span12 skill-bar">
 								<div class="progress">
-									<div class="bar  bar-warning" style="width: 100%;"><i class="icon-file"></i>HTML, CSS</div>
+									<div class="bar" style="width: 100%;"><i class="icon-file"></i>HTML, CSS</div>
 								</div>
 							</div>
 						</div>
@@ -94,7 +41,7 @@
 						<div class="skill-item row-fluid">
 							<div class="span12 skill-bar">
 								<div class="progress">
-									<div class="bar bar-success" style="width: 100%;"><i class="icon-phone"></i>App Development</div>
+									<div class="bar" style="width: 100%;"><i class="icon-phone"></i>App Development</div>
 								</div>
 							</div>
 						</div>
@@ -104,7 +51,7 @@
 						<div class="skill-item row-fluid">
 							<div class="span12 skill-bar">
 								<div class="progress">
-									<div class="bar " style="width: 100%;"><i class="icon-eye-open"></i>Technical Consulting</div>
+									<div class="bar" style="width: 100%;"><i class="icon-eye-open"></i>Technical Consulting</div>
 								</div>
 							</div>
 						</div>
@@ -294,23 +241,3 @@
 				
 			</div>
 		<!-- end .main-wrap -->
-		
-		<!-- start .footer -->
-			<div class="span12 footer">
-				<div class="row">
-					<p><small>
-						powered by <a href="http://twitter.github.com/bootstrap/">twitter bootstrap</a> and 
-						<a href="http://fortawesome.github.com/Font-Awesome/">font awesome</a>
-					</small></p>
-				</div>
-			</div>
-		<!-- end .footer -->
-		</div>
-	</div>
-	<script src="js/jquery.latest.min.js"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-	<script src="js/prettyPhoto/jquery.prettyPhoto.js"></script>
-	<script src="js/custom.js"></script>
-	</body>
-  
-</html>

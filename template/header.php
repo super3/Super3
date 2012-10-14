@@ -12,7 +12,7 @@
 		<link href="fontawesome/css/font-awesome-ie7.css" rel="stylesheet">
 		<link href="js/prettyPhoto/prettyPhoto.css" rel="stylesheet">
 		<link href="style.css" rel="stylesheet">
-		<link href="skins/skin-default.css" rel="stylesheet">
+		<link href="skins/skin-custom.css" rel="stylesheet">
 
 		<link rel="shortcut icon" href="assets/fav.png">
 		
@@ -49,42 +49,6 @@
 	<div class="container">
 		<div class="row page-wrap">
 		<div class="span12">
+			
 			<h4 class="intro-slogan css3-gradient">Super3.org<br/>Art. Web. Dev.</h4>
 		</div>
-		
-		
-		<!-- begin .main-wrap -->
-			<div class="span12 main-wrap pull-left">		
-					
-				<!-- begin .section-work -->
-				<div class="section section-work section-first row">
-					<h3 class="css3-gradient-2"><i class="icon-question-sign"></i>404 - Page Not Found</h3>
-					<div style="text-align:center;">
-						<img src="assets/404.jpg" alt="404"/>
-					</div>			
-				
-				</div>
-				<!-- end .section-work -->					
-				
-			</div>
-		<!-- end .main-wrap -->
-		
-		<!-- start .footer -->
-			<div class="span12 footer">
-				<div class="row">
-					<p><small>
-						powered by <a href="http://twitter.github.com/bootstrap/">twitter bootstrap</a> and 
-						<a href="http://fortawesome.github.com/Font-Awesome/">font awesome</a>
-					</small></p>
-				</div>
-			</div>
-		<!-- end .footer -->
-		</div>
-	</div>
-	<script src="js/jquery.latest.min.js"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-	<script src="js/prettyPhoto/jquery.prettyPhoto.js"></script>
-	<script src="js/custom.js"></script>
-	</body>
-  
-</html>

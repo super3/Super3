@@ -104,3 +104,6 @@
 .mirror-mode-switch {background: #160816 !important; color: #fff !important;}
 .mirror-mode-switch a{color: #fff !important;}
 .mirror-mode-on {background: #88a65e !important;}
+
+/* Added */
+.center { text-align: center;}

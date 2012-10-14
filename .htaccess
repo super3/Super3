@@ -1,0 +1,6 @@
+# Set 404
+ErrorDocument 404 http://super3.org/404
+
+# Clean URLs
+RewriteEngine on
+RewriteRule ^([a-zA-Z0-9-]+)$ index.php?page=$1
