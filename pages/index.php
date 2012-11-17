@@ -236,7 +236,7 @@
 							</div>
 							<div class="blog-item-excerpt span8">
 								<h4><a href="#" title="Launch of Super3.org - Version 3">
-									Launch of Super3.org - Version 4</a></h4>
+									Launch of Super3.org - Version 3</a></h4>
 								<div class="blog-item-meta">
 									<span><i class="icon-calendar"></i><small>2012-10-13</small></span>
 									<span><i class="icon-comments"></i><small><a href="#">0 comments</a></small></span>

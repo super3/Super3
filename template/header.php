@@ -60,5 +60,5 @@
 	<div class="container">
 		<div class="row page-wrap">
 		<div class="span12">
-			<h4 class="intro-slogan css3-gradient">Super3.org<br/>Art. Web. Dev.</h4>
+			<h4 class="intro-slogan css3-gradient">Super3.org / Art. Web. Dev.</h4>
 		</div>
