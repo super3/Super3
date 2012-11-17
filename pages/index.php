@@ -81,14 +81,18 @@
 					
 						<div class="section-work-list row-fluid">
 							<div class="span6 work-item">
-							<h4>
-								<i class="icon-camera-retro"></i>PyTrack 
-								<small>
-									<a href="https://github.com/super3/PyTrack">(Source)</a>
-								</small>
-							</h4>
-							A computer vision object and motion tracking tool. Currently allows you to track and report the location of a single object in a video. Developed at the University of Washington as part of a REU program at the <a href="http://www.csne-erc.org/">Center for Sensorimotor Neural 
-							Engineering</a>. </div>
+								<h4>
+									<i class="icon-camera-retro"></i>PyTrack 
+									<small>
+										<a href="https://github.com/super3/PyTrack">(Source)</a>
+									</small>
+								</h4>
+								<div class="lineimg">
+									<a href="https://github.com/super3/PyTrack" title="pytrack"><img src="assets/pytrack.png" alt="pytrack"/></a>
+								</div>
+								A computer vision object and motion tracking tool. Currently allows you to track and report the location of a single object in a video. Developed at the University of 
+								Washington as part of a REU program at the <a href="http://www.csne-erc.org/">Center for Sensorimotor Neural Engineering</a>. 
+							</div>
 						
 							<div class="span6 work-item">
 							<h4>
@@ -97,6 +101,9 @@
 									<a href="https://github.com/super3/Zombie-Factory">(Source)</a>
 								</small>
 							</h4>
+							<div class="lineimg">
+								<a href="https://github.com/super3/Zombie-Factory" title="zombie"><img src="assets/zombie.png" alt="zombie"/></a>
+							</div>
 							A zombie shooting game made with Python. Part of my experiments with PyGame, a cross-platform set of Python modules designed for writing video games. A playable version will be coming soon.</div>
 						</div>		
 						
@@ -110,6 +117,9 @@
 									<a href="https://github.com/super3/Sketch-and-Shake">(Source)</a>
 								</small>
 							</h4>
+							<div class="lineimg">
+								<a href="http://www.windowsphone.com/en-US/apps/5633a058-44da-4ddb-9132-42ce9ab52226" title="sketch"><img src="assets/sketch.png" alt="sketch"/></a>
+							</div>
 							An etch-a-sketch app, designed during Experience Microsoft 2012, for Windows Phone 7. You 
 							can draw with your finger and shake your phone to erase. Written in C#. This app has been recommended and featured by <a href="http://www.appdealswp.com/">AppDeals</a>. Best of all
 							it is free to download.</div>
@@ -119,6 +129,9 @@
 								<i class="icon-comments"></i>PHP IRC Bot 
 								<small><a href="http://wildphp.com">(Website)</a></small>
 							</h4>
+							<div class="lineimg">
+								<a href="http://wildphp.com" title="irc"><img src="assets/irc.png" alt="irc"/></a>
+							</div>
 							A simple, object oriented, and PHP based IRC Bot for games, channel logging and 
 							management. No special software needed, simply run it on any webserver or LAMP stack.
 							You can easily extend it with your own modules in PHP, rather than some custom scripting
@@ -188,14 +201,23 @@
 					
 						<div class="section-education-list row-fluid">
 							<div class="span6 education-item">
-							<h4><i class="icon-circle-arrow-right"></i>Morehouse College <small>2010 &mdash; 2014</small></h4>
-							Morehouse College is a private, all-male, liberal arts, historically black college located in Atlanta, in the U.S. state of Georgia. I am currently a junior, and majoring in Computer 
-							Science. During my time here I've participated in our Culturally Relevant Computing Lab and the Morehouse Mobile Computing Lab. I am currently researching big data and data mining as part
-							of an independent research project</div>
-						
+								<h4><i class="icon-circle-arrow-right"></i>Morehouse College <small>2010 &mdash; 2014</small></h4>
+								<div class="lineimg">
+									<a href="http://morehouse.edu" title="morehouse"><img src="assets/morehouse.png" alt="morehouse"/></a>
+								</div>
+								<a href="http://morehouse.edu">Morehouse College</a> is a private, all-male, liberal arts, historically black college located in Atlanta, in the U.S. state of Georgia. I am currently a 
+								junior, and majoring in Computer Science. During my time here I've participated in our Culturally Relevant Computing Lab and the Morehouse Mobile Computing Lab. I am currently researching
+								in the field of computer vision, and developing computer vision software called <a href="https://github.com/super3/PyTrack">PyTrack</a>.
+							</div>
 							<div class="span6 education-item">
-							<h4><i class="icon-circle-arrow-right"></i>Hopps Scholar <small>2011 &mdash; 2012</small></h4>
-							I am currently serving as the vice president for the Dr. John H. Hopps, Jr. Defense Research Scholars Program. The goal of the program is to increase the number of Morehouse students pursuing graduate degrees. As part of this program, students participate in a highly structured program that includes research-based mentoring with faculty, seminars, courses, and other social and extracurricular activities. </div>
+								<h4><i class="icon-circle-arrow-right"></i>Hopps Scholar <small>2011 &mdash; 2012</small></h4>
+								<div class="lineimg">
+									<a href="http://hoppsscholars.org/" title="hopps"><img src="assets/hopps.png" alt="hopps"/></a>
+								</div>
+								I am currently serving as the vice president for the <a href="http://hoppsscholars.org/">Dr. John H. Hopps, Jr. Defense Research Scholars Program</a>. The goal of the program is to increase
+								the number of Morehouse students pursuing graduate degrees. As part of this program, students participate in a highly structured program that includes research-based mentoring with faculty,
+								seminars, courses, and other social and extracurricular activities. 
+							</div>
 						</div>					
 	
 				</div>
@@ -209,7 +231,7 @@
 						<div class="section-blog-item row-fluid">
 							<div class="blog-item-thumbnail span4">
 								<div class="blog-item-thumbnail-wrap">
-									<a href="#" title="title goes here"><img src="assets/firework.jpg" alt="alt goes here"/></a>
+									<a href="#" title="fireworks"><img src="assets/firework.jpg" alt="fireworks"/></a>
 								</div>
 							</div>
 							<div class="blog-item-excerpt span8">
